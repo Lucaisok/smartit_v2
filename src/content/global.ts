@@ -1,4 +1,11 @@
 export const siteContent = {
+    about: {
+        brand: "Smart it",
+        mainIntro: "è un'impresa specializzata in",
+        mainHighlight: "servizi di pulizia professionale, manutenzione e facility management",
+        mainLocation: "a Milano, Assago, Buccinasco e in tutta la Lombardia.",
+        description: "Ci prendiamo cura del vostro immobile in ogni suo aspetto, preservandone il valore nel tempo attraverso interventi mirati e personalizzati: dalla pulizia quotidiana e straordinaria di uffici, aziende e condomini, al lavaggio di facciate e vetrate, fino alla manutenzione di impianti elettrici e idraulici, spazi verdi e aree comuni.",
+    },
     hero: {
         imageAlt: "Milano buildings",
         titleStart: "Soluzioni Complete per il",

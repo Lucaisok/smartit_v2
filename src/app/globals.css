@@ -30,4 +30,9 @@
 
   --color-hero-subtitle: #d1d5db;
   --color-gray-100: #f3f4f6;
+  --color-text-dark: #1f2937;
+  --color-text-secondary: #4b5563;
+
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
 }
