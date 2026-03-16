@@ -11,7 +11,7 @@ interface MobileNavigationProps {
 }
 
 export const MobileNavigation = ({ mobileMenuOpen, toggleMenu }: MobileNavigationProps) => {
-    const text = siteContent.nav;
+    const text = siteContent.header;
     const HomeIcon = menuItems.home.icon;
     const ServicesIcon = menuItems.services.icon;
     const AboutIcon = menuItems.about.icon;

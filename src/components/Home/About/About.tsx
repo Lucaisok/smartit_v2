@@ -1,7 +1,7 @@
 import styles from "./About.module.css";
 import { siteContent } from "../../../content/global";
 
-const about = siteContent.about;
+const about = siteContent.home.about;
 
 export const About = () => {
     return (

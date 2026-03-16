@@ -4,7 +4,7 @@ import styles from "./Hero.module.css";
 import { siteContent } from "../../../content/global";
 import { routes } from "../../../lib/routes";
 
-const hero = siteContent.hero;
+const hero = siteContent.home.hero;
 
 export const Hero = () => {
     return (

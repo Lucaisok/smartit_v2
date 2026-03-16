@@ -22,7 +22,7 @@ export const Header = () => {
                 <div className={styles.inner}>
                     {/* Logo */}
                     <Link href={routes.home} className={styles.logoLink}>
-                        <Image src="/no-text-logo.png" alt={siteContent.nav.logoAlt} width={667} height={164} className={styles.logo} priority />
+                        <Image src="/no-text-logo.png" alt={siteContent.header.logoAlt} width={667} height={164} className={styles.logo} priority />
                     </Link>
 
                     {/* Desktop Navigation */}
@@ -40,10 +40,10 @@ export const Header = () => {
                             {menuItems.contact.label}
                         </Link>
                         <Link
-                            href={siteContent.nav.ctaHref}
+                            href={siteContent.header.ctaHref}
                             className={styles.ctaLink}
                         >
-                            {siteContent.nav.ctaLabel}
+                            {siteContent.header.ctaLabel}
                         </Link>
                     </div>
 

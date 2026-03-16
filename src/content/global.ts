@@ -1,21 +1,40 @@
 export const siteContent = {
-    about: {
-        brand: "Smart it",
-        mainIntro: "è un'impresa specializzata in",
-        mainHighlight: "servizi di pulizia professionale, manutenzione e facility management",
-        mainLocation: "a Milano, Assago, Buccinasco e in tutta la Lombardia.",
-        description: "Ci prendiamo cura del vostro immobile in ogni suo aspetto, preservandone il valore nel tempo attraverso interventi mirati e personalizzati: dalla pulizia quotidiana e straordinaria di uffici, aziende e condomini, al lavaggio di facciate e vetrate, fino alla manutenzione di impianti elettrici e idraulici, spazi verdi e aree comuni.",
+    home: {
+        about: {
+            brand: "Smart it",
+            mainIntro: "è un'impresa specializzata in",
+            mainHighlight: "servizi di pulizia professionale, manutenzione e facility management",
+            mainLocation: "a Milano, Assago, Buccinasco e in tutta la Lombardia.",
+            description: "Ci prendiamo cura del vostro immobile in ogni suo aspetto, preservandone il valore nel tempo attraverso interventi mirati e personalizzati: dalla pulizia quotidiana e straordinaria di uffici, aziende e condomini, al lavaggio di facciate e vetrate, fino alla manutenzione di impianti elettrici e idraulici, spazi verdi e aree comuni.",
+        },
+        hero: {
+            imageAlt: "Milano buildings",
+            titleStart: "Soluzioni Complete per il",
+            titleHighlight: "Facility Management",
+            titleEnd: "a Milano",
+            description: "Dalla pulizia alla manutenzione, gestiamo ogni aspetto dei tuoi spazi aziendali con professionalità e affidabilità.",
+            primaryCta: "Richiedi un Preventivo",
+            secondaryCta: "Scopri i Servizi",
+        },
+        contacts: {
+            title: "Pronto a Migliorare i Tuoi Spazi?",
+            description: "Contattaci oggi per un preventivo gratuito e scopri come possiamo aiutarti",
+            primaryCta: "Contattaci Ora",
+        },
+        whyUs: {
+            title: "Perché Scegliere Smart it",
+            subtitle: "Il partner ideale per la gestione dei tuoi spazi a Milano",
+            consolidatedExperienceTitle: "Esperienza Consolidata",
+            consolidatedExperienceDescription: "Anni di esperienza nel settore della gestione facilities a Milano",
+            certifiedQualityTitle: "Qualità Certificata",
+            certifiedQualityDescription: "Standard elevati e certificazioni nel rispetto delle normative",
+            h24AvailabilityTitle: "Disponibilità H24",
+            h24AvailabilityDescription: "Interventi programmati e assistenza disponibile quando ne hai bisogno",
+            dedicatedSupportTitle: "Supporto Dedicato",
+            dedicatedSupportDescription: "Un team professionale sempre a tua disposizione",
+        },
     },
-    hero: {
-        imageAlt: "Milano buildings",
-        titleStart: "Soluzioni Complete per il",
-        titleHighlight: "Facility Management",
-        titleEnd: "a Milano",
-        description: "Dalla pulizia alla manutenzione, gestiamo ogni aspetto dei tuoi spazi aziendali con professionalità e affidabilità.",
-        primaryCta: "Richiedi un Preventivo",
-        secondaryCta: "Scopri i Servizi",
-    },
-    nav: {
+    header: {
         logoAlt: "Smart it",
         logoLabel: "Smart it",
         homeLabel: "Home",
