@@ -6,7 +6,8 @@ export interface Service {
     image: string;
     title: string;
     shortDescription: string;
-    icon?: LucideIcon;
+    description: string;
+    icon: LucideIcon;
 }
 
 export interface AdditionalService {

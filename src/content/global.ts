@@ -76,11 +76,35 @@ export const siteContent = {
         copyrightSuffix: "Smart it. Tutti i diritti riservati.",
     },
     services: {
-        routineCleaning: "Pulizie ordinarie",
-        deepCleaning: "Pulizie straordinarie",
-        maintenance: "Manutenzioni",
-        conciergeAndReception: "Servizi di portierato e reception",
-        greenAreaMaintenance: "Manutenzione del verde",
-        renovations: "Ristrutturazioni",
+        routineCleaning: {
+            title: "Pulizie ordinarie",
+            shortDescription: "Servizi di pulizia regolare per mantenere i tuoi spazi sempre impeccabili.",
+            description: "Il nostro servizio di pulizie ordinarie garantisce ambienti sempre puliti, igienizzati e accoglienti. Offriamo soluzioni personalizzate per uffici, negozi e spazi commerciali con personale qualificato e prodotti professionali.",
+        },
+        deepCleaning: {
+            title: "Pulizie straordinarie",
+            shortDescription: "Interventi approfonditi per sanificazione e pulizia straordinaria.",
+            description: "Le pulizie straordinarie sono interventi approfonditi e mirati per situazioni particolari: traslochi, eventi, ristrutturazioni o semplicemente quando serve una pulizia piu accurata del normale.",
+        },
+        businessAndOfficeCleaning: {
+            title: "Pulizie per Aziende e Uffici",
+            shortDescription: "Soluzioni professionali per spazi di lavoro puliti e accoglienti.",
+            description: "Offriamo servizi di pulizia dedicati ad aziende e uffici a Milano. Comprendiamo l'importanza di ambienti di lavoro puliti e professionali per la produttivita e l'immagine aziendale.",
+        },
+        industrialCleaning: {
+            title: "Pulizie Industriali",
+            shortDescription: "Servizi specializzati per ambienti industriali e produttivi.",
+            description: "Pulizie industriali professionali per stabilimenti, magazzini, capannoni e aree produttive. Utilizziamo attrezzature specifiche e personale specializzato per garantire sicurezza e conformita alle normative.",
+        },
+        condominiumCleaning: {
+            title: "Pulizie Condominiali",
+            shortDescription: "Manutenzione e pulizia di aree comuni condominiali.",
+            description: "Servizi di pulizia per condomini a Milano: scale, androni, cortili, garage e tutte le aree comuni. Garantiamo standard elevati per il benessere di tutti i condomini.",
+        },
+        maintenance: {
+            title: "Manutenzioni",
+            shortDescription: "Servizi completi di manutenzione ordinaria e straordinaria.",
+            description: "Offriamo servizi completi di manutenzione per edifici, uffici e strutture. Dal piccolo intervento alla manutenzione programmata, ci occupiamo di tutto con professionalita.",
+        },
     },
 };
