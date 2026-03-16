@@ -7,7 +7,7 @@ import { AdditionalServicesSection } from "../components/Home/AdditionalServices
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main>
       <Hero />
       <About />
       <MainServicesSection />
