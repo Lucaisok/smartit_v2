@@ -47,6 +47,25 @@ export const siteContent = {
             dedicatedSupportDescription: "Un team professionale sempre a tua disposizione",
         },
     },
+    servicesPage: {
+        hero: {
+            image: "https://images.unsplash.com/photo-1719005764706-9805b8f8eb81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGZhY2lsaXR5JTIwbWFuYWdlbWVudHxlbnwxfHx8fDE3NzMzMjkyNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+            imageAlt: "Facility Management",
+            titleStart: "I Nostri",
+            titleHighlight: "Servizi",
+            description1: "Scopri la nostra gamma completa di servizi per il facility management.",
+            description2: "Soluzioni professionali per ogni tua esigenza."
+        },
+        contacts: {
+            title: "Non Trovi il Servizio che Cerchi?",
+            description: "Contattaci e troveremo insieme la soluzione più adatta alle tue esigenze",
+            primaryCta: "Contattaci Ora"
+        },
+        about: {
+            title: "Ci occupiamo della cura completa degli ambienti aziendali, offrendo un'ampia gamma di servizi integrati per ogni esigenza di gestione e manutenzione.",
+            description: "Dalle pulizie ordinarie e straordinarie alla cura delle aree verdi, dai servizi di logistica e movimentazione a quelli di portierato e reception, mettiamo a disposizione competenza, tempestività e flessibilità. Ogni intervento è studiato su misura, per garantire efficienza operativa, ordine e igiene in ogni contesto: uffici, aziende, complessi direzionali o strutture ad alta affluenza."
+        }
+    },
     header: {
         logoAlt: "Smart it",
         logoLabel: "Smart it",

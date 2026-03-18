@@ -3,9 +3,8 @@ import { siteContent } from "../../../content/global";
 import { services } from "@/src/lib/services";
 import { MainServiceCard } from "../../MainServiceCard/MainServiceCard";
 
-const text = siteContent.home.mainServicesSection;
-
 export const MainServicesSection = () => {
+    const text = siteContent.home.mainServicesSection;
     return (
         <section className={styles.section}>
             <div className={styles.container}>

@@ -1,0 +1,43 @@
+.section {
+    position: relative;
+    background: linear-gradient(to bottom right, var(--color-footer-bg), var(--color-footer-border));
+    color: var(--color-white);
+    padding: var(--section-padding);
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    opacity: 0.3;
+}
+
+.overlayImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    position: relative;
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    padding: 0 var(--container-padding-lg);
+    text-align: center;
+}
+
+.title {
+    font-size: var(--font-size-hero-title-md);
+    margin-bottom: 1.5rem;
+}
+
+.titleHighlight {
+    color: var(--color-brand);
+}
+
+.description {
+    font-size: var(--font-size-xl);
+    color: var(--color-hero-subtitle);
+    max-width: 48rem;
+    margin: 0.5rem auto;
+}
