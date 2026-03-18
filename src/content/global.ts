@@ -138,7 +138,7 @@ export const siteContent = {
         chiSiamoLabel: "Chi Siamo",
         contattiLabel: "Contatti",
         ctaHref: "/contatti",
-        ctaLabel: "Richiedi Preventivo",
+        ctaLabel: "Preventivo Gratuito",
         mobileFooterPrimary: "Smart it - Facility Management",
         mobileFooterSecondary: "Milano",
     },
