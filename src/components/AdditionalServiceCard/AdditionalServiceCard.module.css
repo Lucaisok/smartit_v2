@@ -15,14 +15,13 @@
 
 .accentBar {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 0.25rem;
+    inset: 0 auto 0 0;
+    width: 0.5rem;
     border-radius: 0.75rem 0 0 0.75rem;
     background: linear-gradient(to bottom, var(--color-brand), var(--color-brand-hover));
     opacity: 0;
     transition: opacity 0.3s ease;
+    z-index: 1;
 }
 
 .card:hover .accentBar {
@@ -96,8 +95,8 @@
 }
 
 .card:hover .cta {
-    opacity: 1;
-    transform: translateX(0);
+    opacity: 1 !important;
+    transform: translateX(0) !important;
 }
 
 .ctaLabel {
@@ -115,6 +114,34 @@
 
     .description {
         font-size: var(--font-size-sm);
+    }
+
+    .card,
+    .card:hover {
+        border-color: var(--color-brand);
+        box-shadow: var(--shadow-card-hover);
+    }
+
+    /* .accentBar and .cta only on hover, so do NOT force opacity: 1 here */
+    .card .iconBox,
+    .card:hover .iconBox {
+        background-color: var(--color-brand);
+    }
+
+    .card .icon,
+    .card:hover .icon {
+        color: var(--color-white);
+    }
+
+    .card,
+    .card:hover .title {
+        color: var(--color-brand);
+    }
+
+    .card .cta,
+    .card:hover .cta {
+        opacity: 1 !important;
+        transform: translateX(0) !important;
     }
 }
 

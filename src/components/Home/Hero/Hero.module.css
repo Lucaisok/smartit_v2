@@ -2,7 +2,8 @@
     position: relative;
     background: linear-gradient(to bottom right, var(--color-footer-bg), var(--color-footer-border));
     color: var(--color-white);
-    height: calc(100vh - 5rem);
+    height: calc(100vh - 4.5rem);
+    height: calc(100dvh - 4.5rem);
 }
 
 .overlay {
@@ -36,10 +37,21 @@
     font-size: var(--font-size-hero-title-lg);
     margin-bottom: 2rem;
     line-height: 1.15;
+    font-weight: 600;
 }
 
 .titleHighlight {
     color: var(--color-brand);
+}
+
+.titleLocation {
+    display: inline;
+}
+
+@media (max-width: 640px) {
+    .titleLocation {
+        display: none;
+    }
 }
 
 .description {
@@ -113,7 +125,16 @@
 }
 
 @media (max-width: 640px) {
+    .section {
+        height: auto;
+        min-height: calc(100vh - 4rem);
+        min-height: calc(100svh - 4rem);
+    }
+
     .content {
+        height: auto;
+        min-height: calc(100vh - 4rem);
+        min-height: calc(100svh - 4rem);
         padding: 0 var(--container-padding-sm);
     }
 

@@ -16,6 +16,7 @@
 
   --radius-md: 0.5rem;
   --logo-height: 2.5rem;
+  --header-height: 5rem;
   --transition-fast: 0.2s ease;
 
   --font-size-sm: 0.875rem;
@@ -40,4 +41,12 @@
 
   --font-size-3xl: 1.875rem;
   --font-size-4xl: 2.25rem;
+
+  --section-padding: 4rem 0;
+}
+
+@media (max-width: 639px) {
+  :root {
+    --header-height: 4.25rem;
+  }
 }

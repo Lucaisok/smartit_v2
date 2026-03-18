@@ -18,7 +18,7 @@ export const MainServicesSection = () => {
                 <div className={styles.grid}>
                     {services.map((service) => {
                         return (
-                            <MainServiceCard service={service} />
+                            <MainServiceCard service={service} key={service.id} />
                         );
                     })}
                 </div>

@@ -1,5 +1,5 @@
 .section {
-    padding: 6rem 0;
+    padding: var(--section-padding);
     background-color: var(--color-white);
 }
 
@@ -40,11 +40,11 @@
         padding: 0 var(--container-padding-md);
     }
 
-    .mainText {
+    /* .mainText {
         font-size: var(--font-size-2xl);
-    }
+    } */
 
-    .description {
+    .none {
         display: none;
     }
 }
@@ -54,7 +54,5 @@
         padding: 0 var(--container-padding-sm);
     }
 
-    .mainText {
-        font-size: var(--font-size-xl);
-    }
+
 }

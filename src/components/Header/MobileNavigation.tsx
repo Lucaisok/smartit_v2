@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from "motion/react";
 import Link from "next/link";
-import { Sparkles } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
+import Image from "next/image";
 import styles from "./MobileNavigation.module.css";
 import { siteContent } from "@/src/content/global";
 import { menuItems } from "@/src/lib/menuItems";
@@ -39,8 +40,8 @@ export const MobileNavigation = ({ mobileMenuOpen, toggleMenu }: MobileNavigatio
                         transition={{ type: "spring", damping: 25, stiffness: 200 }}
                         className={styles.panel}
                     >
-                        <div className={styles.decorTop} />
-                        <div className={styles.decorBottom} />
+                        {/* <div className={styles.decorTop} />
+                        <div className={styles.decorBottom} /> */}
 
                         <div className={styles.inner}>
                             {/* Logo */}
@@ -51,7 +52,7 @@ export const MobileNavigation = ({ mobileMenuOpen, toggleMenu }: MobileNavigatio
                                 className={styles.logoBox}
                             >
                                 <div className={styles.logoInner}>
-                                    <span className={styles.logoText}>{text.logoLabel}</span>
+                                    <Image src="/no-text-logo.png" alt={text.logoAlt} width={667} height={164} className={styles.logoImg} priority />
                                 </div>
                             </motion.div>
 
@@ -129,7 +130,7 @@ export const MobileNavigation = ({ mobileMenuOpen, toggleMenu }: MobileNavigatio
                                     </Link>
                                 </motion.div>
 
-                                {/* CTA Button */}
+                                {/* WhatsApp Button */}
                                 <motion.div
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
@@ -137,12 +138,16 @@ export const MobileNavigation = ({ mobileMenuOpen, toggleMenu }: MobileNavigatio
                                     className={styles.ctaWrapper}
                                 >
                                     <Link
-                                        href={text.ctaHref}
-                                        className={styles.ctaLink}
+                                        href="https://wa.me/393483327741"
+                                        className={styles.menuLink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         onClick={() => toggleMenu()}
                                     >
-                                        <Sparkles className={styles.ctaIcon} />
-                                        <span>{text.ctaLabel}</span>
+                                        <div className={styles.iconBox}>
+                                            <FaWhatsapp className={styles.icon} />
+                                        </div>
+                                        <span className={styles.menuLabel}>WhatsApp</span>
                                     </Link>
                                 </motion.div>
                             </div>

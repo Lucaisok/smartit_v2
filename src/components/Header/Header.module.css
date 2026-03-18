@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 5rem;
+    height: 4.5rem;
 }
 
 .logoLink {
@@ -97,5 +97,28 @@
 @media (min-width: 640px) {
     .nav {
         padding: 0 var(--container-padding-md);
+    }
+}
+
+@media (max-width: 639px) {
+    .inner {
+        height: 3.5rem;
+    }
+
+
+    .innerMenuOpen {
+        background: var(--color-brand);
+        color: var(--color-white);
+        border-radius: var(--radius-md);
+        margin: 0.5rem 0;
+        padding: 0 1rem;
+    }
+
+    .logo {
+        height: 2rem;
+    }
+
+    .menuButton {
+        padding: 0.275rem;
     }
 }
