@@ -27,9 +27,6 @@ export const Header = () => {
 
                     {/* Desktop Navigation */}
                     <div className={styles.desktopNav}>
-                        <Link href={menuItems.home.href} className={styles.navLink}>
-                            {menuItems.home.label}
-                        </Link>
                         <Link href={menuItems.services.href} className={styles.navLink}>
                             {menuItems.services.label}
                         </Link>
@@ -39,12 +36,14 @@ export const Header = () => {
                         <Link href={menuItems.contact.href} className={styles.navLink}>
                             {menuItems.contact.label}
                         </Link>
-                        <Link
-                            href={siteContent.header.ctaHref}
+                        <Link href={menuItems.office.href} className={styles.navLink}>
+                            {menuItems.office.label}
+                        </Link>
+                        <div
                             className={styles.ctaLink}
                         >
                             {siteContent.header.ctaLabel}
-                        </Link>
+                        </div>
                     </div>
 
                     {/* Mobile Menu Button */}

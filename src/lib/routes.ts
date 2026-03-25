@@ -3,4 +3,5 @@ export const routes = {
     services: "/servizi",
     about: "/chi-siamo",
     contacts: "/contatti",
+    office: "/punto-smartit"
 };

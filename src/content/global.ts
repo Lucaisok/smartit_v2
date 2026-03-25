@@ -53,6 +53,20 @@ export const siteContent = {
         },
     },
     officeSection: {
+        cards: {
+            addressTitle: "Indirizzo",
+            addressLine1: "Palazzo dei Congressi Milanofiori",
+            addressLine2: "Assago (MI)",
+            addressCta: "Apri in Maps",
+            phoneTitle: "Telefono",
+            phoneNumber: "+39 02 828 605 83",
+            phoneNote: "Chiamaci per fissare un appuntamento",
+            phoneCta: "Chiama Ora",
+            hoursTitle: "Orari di Apertura",
+            hoursDays: "Lunedì - Venerdì",
+            hoursTime: "09:00 - 18:00",
+            hoursNote: "Su appuntamento anche al di fuori degli orari standard"
+        },
         contactsLabels: {
             addressTitle: "Indirizzo",
             phoneTitle: "Telefono",
@@ -164,6 +178,11 @@ export const siteContent = {
             description: "Dalle pulizie ordinarie e straordinarie alla cura delle aree verdi, dai servizi di logistica e movimentazione a quelli di portierato e reception, mettiamo a disposizione competenza, tempestività e flessibilità. Ogni intervento è studiato su misura, per garantire efficienza operativa, ordine e igiene in ogni contesto: uffici, aziende, complessi direzionali o strutture ad alta affluenza."
         }
     },
+    officePage: {
+        badge: "Il Tuo Punto di Riferimento a Milano",
+        title: "Benvenuto al Punto Smart it",
+        description: "Il nostro ufficio presso il Palazzo dei Congressi Milanofiori è il luogo ideale per consulenze personalizzate, preventivi immediati e per conoscere da vicino i nostri servizi.",
+    },
     header: {
         logoAlt: "Smart it",
         logoLabel: "Smart it",
@@ -175,6 +194,7 @@ export const siteContent = {
         ctaLabel: "Preventivo Gratuito",
         mobileFooterPrimary: "Smart it - Facility Management",
         mobileFooterSecondary: "Milano",
+        officeLabel: "Punto Smart it"
     },
     footer: {
         logoAlt: "Smart it",

@@ -1,0 +1,123 @@
+.cardsSection {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: var(--color-gray-50);
+}
+
+.container {
+    max-width: var(--container-max-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--container-padding-lg);
+    padding-right: var(--container-padding-lg);
+}
+
+.cardsGrid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .cardsGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.card {
+    background: var(--color-white);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.06);
+    border-top: 4px solid var(--color-brand);
+    transition: box-shadow var(--transition-fast);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.10);
+}
+
+.cardSpacer {
+    flex: 1 1 auto;
+}
+
+
+.cardIcon {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: var(--color-brand-tint);
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.cardIcon svg {
+    color: var(--color-brand);
+}
+
+.cardTitle {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: var(--color-text-dark);
+}
+
+.cardText {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-lg);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.cardTextStrong {
+    color: var(--color-text-dark);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.cardTextBrand {
+    color: var(--color-brand);
+    font-size: var(--font-size-2xl);
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+}
+
+.cardTextSmall {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+}
+
+.cardLink {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-brand);
+    font-weight: 500;
+    text-decoration: none;
+    transition: gap var(--transition-fast), color var(--transition-fast);
+}
+
+.cardLink:hover {
+    gap: 0.75rem;
+    color: var(--color-brand-hover);
+}
+
+.cardPhone {
+    color: var(--color-brand);
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    display: block;
+    transition: color var(--transition-fast);
+}
+
+.cardPhone:hover {
+    color: var(--color-brand-hover);
+}

@@ -54,10 +54,6 @@
     transition: background var(--transition-fast);
 }
 
-.ctaLink:hover {
-    background: var(--color-brand-hover);
-}
-
 .menuButton {
     position: relative;
     z-index: 50;

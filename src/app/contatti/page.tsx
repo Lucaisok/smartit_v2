@@ -1,4 +1,4 @@
-import { OfficeSection } from "@/src/components/Office/OfficeSection";
+import { OfficeSection } from "@/src/components/OfficeSection/OfficeSection";
 import { Hero } from "@/src/components/ContactsPage/Hero/Hero";
 import { Form } from "@/src/components/ContactsPage/Form/Form";
 import { Contacts } from "@/src/components/ContactsPage/Contacts/Contacts";

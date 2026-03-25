@@ -10,6 +10,8 @@
   --color-footer-bg: #111827;
   --color-footer-border: #1f2937;
 
+  --color-hero-overlay: rgba(17, 24, 39, 0.55);
+
   --container-max-width: 80rem;
   --container-padding-sm: 1rem;
   --container-padding-md: 1.5rem;
