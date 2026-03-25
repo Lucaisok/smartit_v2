@@ -1,0 +1,101 @@
+.box {
+    background: linear-gradient(135deg, var(--color-brand), var(--color-brand-dark));
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+}
+
+.grid {
+    display: grid;
+    gap: 0;
+}
+
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.content {
+    color: var(--color-white);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 2;
+}
+
+@media (min-width: 1024px) {
+    .content {
+        padding: 3rem;
+        order: 1;
+    }
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 2.5rem;
+    }
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+}
+
+.cta {
+    margin-top: 1.5rem;
+}
+
+.ctaButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: var(--color-white);
+    color: var(--color-brand);
+    padding: 1rem 2rem;
+    border-radius: 0.75rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    transition: background 0.2s;
+    width: 100%;
+    text-decoration: none;
+}
+
+.ctaButton:hover {
+    background: var(--color-gray-100);
+}
+
+.imageWrapper {
+    position: relative;
+    /* height: 24rem; */
+    order: 1;
+}
+
+@media (min-width: 1024px) {
+    .imageWrapper {
+        height: auto;
+        order: 2;
+    }
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to left, rgba(127, 181, 57, 0.2), transparent);
+}

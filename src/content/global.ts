@@ -47,6 +47,33 @@ export const siteContent = {
             dedicatedSupportDescription: "Un team professionale sempre a tua disposizione",
         },
     },
+    officeSection: {
+        contactsLabels: {
+            addressTitle: "Indirizzo",
+            phoneTitle: "Telefono",
+            phoneNote: "Chiamaci per fissare un appuntamento",
+            hoursTitle: "Orari di Apertura",
+            hours: "Lunedì - Venerdì: 09:00 - 18:00",
+            callNow: "Chiamaci Ora",
+            position: "Il nostro ufficio è strategicamente situato nel cuore di Milanofiori. Qui potrai incontrarci e discutere direttamente delle tue esigenze."
+        },
+        benefits: [
+            {
+                title: "Consulenza Gratuita",
+                subtitle: "Analisi delle tue esigenze"
+            },
+            {
+                title: "Sopralluoghi Gratuiti",
+                subtitle: "Valutazione on-site"
+            },
+        ],
+        header: {
+            badge: "Vieni a Trovarci",
+            title: "Visita il Nostro",
+            titleHighlight: "Punto",
+            subtitle: "Un punto di riferimento concreto per tutte le tue esigenze di facility management. Il nostro team ti aspetta per consulenze personalizzate, sopralluoghi gratuiti e preventivi su misura."
+        },
+    },
     aboutPage: {
         contactsSection: {
             title: "Vuoi Conoscerci Meglio?",

@@ -1,0 +1,48 @@
+.benefits {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 640px) {
+    .benefits {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.iconWrapper {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: var(--color-white);
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+}
+
+.icon {
+    color: var(--color-brand);
+}
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: var(--color-white);
+    font-weight: 500;
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
+}
