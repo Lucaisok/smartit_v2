@@ -20,7 +20,7 @@ export const Contacts = () => {
                         <ArrowRight size={20} />
                     </Link>
                     <Link
-                        href={routes.contact}
+                        href={routes.contacts}
                         className={styles.buttonSecondary}
                     >
                         {content.secondaryCta}

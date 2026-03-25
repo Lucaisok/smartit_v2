@@ -25,7 +25,7 @@ export const Hero = () => {
                         {hero.description}
                     </p>
                     <div className={styles.buttons}>
-                        <Link href={routes.contact} className={styles.btnPrimary}>
+                        <Link href={routes.contacts} className={styles.btnPrimary}>
                             {hero.primaryCta}
                             <ArrowRight size={22} />
                         </Link>

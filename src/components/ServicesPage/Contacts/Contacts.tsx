@@ -11,7 +11,7 @@ export const Contacts = () => {
             <div className={styles.container}>
                 <h2 className={styles.title}>{contacts.title}</h2>
                 <p className={styles.description}>{contacts.description}</p>
-                <Link href={routes.contact} className={styles.cta}>
+                <Link href={routes.contacts} className={styles.cta}>
                     {contacts.primaryCta}
                     <ArrowRight size={20} />
                 </Link>
