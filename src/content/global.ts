@@ -256,12 +256,13 @@ export const siteContent = {
     services: {
         cleaning: {
             title: "Pulizie Ordinarie e Straordinarie",
+            intro: "Servizi di pulizia regolare e interventi approfonditi per sanificazione e pulizia straordinaria.",
             shortDescription: `I nostri servizi di pulizie ordinarie per aziende, uffici e strutture professionali garantiscono ambienti sempre puliti, igienizzati e accoglienti.`,
-            description: `Operiamo con puntualità e discrezione, adattandoci alle vostre esigenze operative senza interferire con le attività quotidiane.
+            description: `Operiamo con puntualità, discrezione e la massima attenzione alle vostre esigenze, organizzando i nostri interventi in modo da non interferire con le attività quotidiane della vostra azienda.
 
-Utilizziamo esclusivamente prodotti certificati e attrezzature di alta qualità, gestiti da personale esperto e in costante aggiornamento professionale.
-Offriamo interventi regolari su misura, pensati per mantenere nel tempo elevati standard di igiene e decoro, in qualsiasi contesto lavorativo.
-Lavoriamo a Milano, Assago, Buccinasco e comuni limitrofi, con la massima affidabilità e flessibilità.`,
+Utilizziamo solo prodotti certificati e attrezzature professionali di ultima generazione, affidandoci a personale esperto e costantemente formato sulle migliori pratiche del settore. Offriamo piani di pulizia personalizzati, studiati per garantire nel tempo standard elevati di igiene, ordine e decoro in ogni ambiente lavorativo, sia per interventi ordinari che straordinari.
+
+Siamo attivi a Milano, Assago, Buccinasco e nei comuni limitrofi, assicurando sempre affidabilità, flessibilità e sopralluoghi gratuiti per rispondere a qualsiasi esigenza.`,
             faqs: [
                 {
                     question: "Con quale frequenza effettuate le pulizie?",
@@ -279,28 +280,97 @@ Lavoriamo a Milano, Assago, Buccinasco e comuni limitrofi, con la massima affida
         },
         businessAndOfficeCleaning: {
             title: "Pulizie per Aziende e Uffici",
-            shortDescription: "Soluzioni professionali per spazi di lavoro puliti e accoglienti.",
-            description: "Offriamo servizi di pulizia dedicati ad aziende e uffici a Milano. Comprendiamo l'importanza di ambienti di lavoro puliti e professionali per la produttivita e l'immagine aziendale.",
+            intro: 'Soluzioni professionali per spazi di lavoro puliti e accoglienti.',
+            shortDescription: "Servizi professionali di pulizia per aziende e uffici. Garantiamo ambienti di lavoro sempre puliti, igienizzati e accoglienti, migliorando benessere e produttività.",
+            description: `Il nostro servizio di pulizie per aziende e uffici è pensato per rispondere alle esigenze di ogni realtà professionale, dalle piccole imprese alle grandi aziende, con soluzioni su misura che garantiscono ambienti sempre puliti, igienizzati e accoglienti. Siamo consapevoli che la pulizia degli spazi di lavoro non è solo una questione di immagine, ma un elemento fondamentale per il benessere, la produttività e la sicurezza di dipendenti e visitatori.
+
+Offriamo interventi di pulizia ordinaria e straordinaria, sanificazioni, trattamenti specifici per pavimenti e superfici, pulizia di vetrate e facciate, gestione dei rifiuti e servizi di pronto intervento per situazioni di emergenza. La nostra organizzazione flessibile ci permette di pianificare le attività in base alle esigenze operative della tua azienda, anche fuori dagli orari di ufficio, per non interferire con la normale attività lavorativa.
+
+Operiamo principalmente a Milano, Assago, Buccinasco e nei comuni limitrofi, garantendo sopralluoghi gratuiti e preventivi personalizzati senza impegno. Il nostro obiettivo è instaurare un rapporto di fiducia duraturo con ogni cliente, offrendo soluzioni che migliorano il comfort, l’immagine e la sicurezza degli ambienti di lavoro. Contattaci per scoprire come possiamo aiutarti a mantenere i tuoi spazi sempre impeccabili e accoglienti.`,
+            faqs: [
+                {
+                    question: "Potete pulire fuori dall'orario di ufficio?",
+                    answer: "Sì, offriamo servizi sia durante che fuori dall'orario lavorativo, secondo le vostre preferenze."
+                },
+                {
+                    question: "Fornite i prodotti per la pulizia?",
+                    answer: "Sì, forniamo tutti i prodotti e le attrezzature professionali necessarie."
+                }
+            ]
         },
         industrialCleaning: {
             title: "Pulizie Industriali e Post Cantiere",
-            shortDescription: "Servizi specializzati per ambienti industriali e pulizie post cantiere.",
-            description: "Pulizie industriali professionali per stabilimenti, magazzini, capannoni e aree produttive. Utilizziamo attrezzature specifiche e personale specializzato per garantire sicurezza e conformita alle normative.",
+            intro: "Servizi specializzati per ambienti industriali e pulizie post cantiere.",
+            shortDescription: "Servizi professionali e su misura per la pulizia di ambienti industriali, stabilimenti produttivi e interventi post cantiere. Garantiamo massima efficienza, sicurezza e rispetto delle normative in ogni contesto.",
+            description: `Offriamo soluzioni avanzate di pulizia industriale per stabilimenti, magazzini, capannoni e aree produttive, intervenendo anche in situazioni complesse come fine cantiere o ripristino post-lavori.
+
+Utilizziamo attrezzature specifiche e tecnologie all’avanguardia, affidandoci a personale altamente specializzato e formato per operare in totale sicurezza.
+
+Ogni intervento è pianificato per assicurare la piena conformità alle normative vigenti e il minimo impatto sulle attività produttive, garantendo ambienti puliti, sicuri e pronti all’uso`,
+            faqs: [
+                {
+                    question: "Avete le certificazioni necessarie?",
+                    answer: "Sì, disponiamo di tutte le certificazioni richieste per operare in ambienti industriali."
+                },
+                {
+                    question: "Potete intervenire durante la produzione?",
+                    answer: "Sì, possiamo pianificare interventi che non interferiscano con l'attività produttiva."
+                },
+                {
+                    question: "Gestite anche rifiuti speciali?",
+                    answer: "Sì, ci occupiamo dello smaltimento corretto secondo le normative vigenti."
+                }
+            ]
         },
         condominiumCleaning: {
             title: "Pulizie Condominiali",
-            shortDescription: "Manutenzione e pulizia di aree comuni condominiali.",
-            description: "Servizi di pulizia per condomini a Milano: scale, androni, cortili, garage e tutte le aree comuni. Garantiamo standard elevati per il benessere di tutti i condomini.",
+            intro: "Manutenzione e pulizia di aree comuni condominiali.",
+            shortDescription: "Manutenzione e pulizia professionale di tutte le aree comuni condominiali: scale, androni, cortili, garage e spazi condivisi, per garantire ordine, igiene e benessere a tutti i residenti.",
+            description: `Garantiamo pulizia e manutenzione costante di tutte le aree comuni condominiali, con interventi regolari e affidabili.
+
+Il nostro team si occupa di scale, androni, cortili, garage, ascensori, pianerottoli e spazi condivisi, utilizzando prodotti professionali e attrezzature moderne per assicurare igiene profonda e rispetto delle normative. Ogni servizio è personalizzato in base alle esigenze dello stabile, con possibilità di interventi straordinari e sanificazioni su richiesta.
+
+Grazie all’esperienza e alla cura dei dettagli, contribuiamo a mantenere ambienti ordinati, sicuri e accoglienti, migliorando la qualità della vita di tutti i residenti. Offriamo sopralluoghi e preventivi gratuiti, senza impegno.`,
+            faqs: [
+                {
+                    question: "Quale frequenza consigliate?",
+                    answer: "Dipende dalle dimensioni del condominio. Generalmente 2-3 volte a settimana per condomini medi."
+                },
+                {
+                    question: "Chi fornisce i prodotti?",
+                    answer: "Forniamo noi tutti i prodotti professionali e le attrezzature necessarie."
+                }
+            ]
         },
         maintenance: {
             title: "Manutenzione Ordinaria e di Impianti",
-            shortDescription: "Servizi completi di manutenzione ordinaria e straordinaria di impianti elettrici, idraulici e meccanici.",
-            description: "Offriamo servizi completi di manutenzione per edifici, uffici e strutture. Dal piccolo intervento alla manutenzione programmata, ci occupiamo di tutto con professionalita.",
+            intro: "Servizi completi di manutenzione ordinaria e straordinaria di impianti elettrici, idraulici e meccanici.",
+            shortDescription: "Servizi completi di manutenzione ordinaria e straordinaria per impianti elettrici, idraulici e meccanici, con interventi tempestivi e soluzioni su misura per garantire efficienza, sicurezza e continuità operativa in ogni ambiente.",
+            description: `Un piano di manutenzione ordinaria ben strutturato è essenziale per garantire la sicurezza, l’efficienza e la continuità operativa degli impianti aziendali.
+
+Smart it offre un servizio completo di manutenzione impianti elettrici, meccanici, idraulici e antincendio, progettato per assicurare il corretto funzionamento delle vostre strutture nel tempo. Interveniamo in modo programmato per prevenire malfunzionamenti e ridurre i rischi di fermo impianto, ma siamo pronti ad agire con tempestività anche in caso di manutenzioni straordinarie, guasti improvvisi o adeguamenti tecnici. Operiamo in contesti direzionali, industriali e condominiali, garantendo interventi su misura, tracciabili e conformi alle normative vigenti.
+
+Lavoriamo su tutto il territorio di Milano, Assago, Buccinasco e in tutta la Lombardia, offrendo soluzioni flessibili e personalizzate per valorizzare e preservare il vostro patrimonio immobiliare.`,
+            faqs: [
+                {
+                    question: "Offrite servizio di pronto intervento?",
+                    answer: "Sì, siamo disponibili per emergenze con tempi di risposta rapidi."
+                },
+                {
+                    question: "I tecnici sono qualificati?",
+                    answer: "Tutti i nostri tecnici sono certificati e con esperienza pluriennale."
+                },
+                {
+                    question: "Fornite garanzia sugli interventi?",
+                    answer: "Sì, tutti gli interventi sono garantiti secondo normativa."
+                }
+            ]
         },
         imbiancature: {
             title: "Imbiancature",
+            intro: "Servizio di imbiancatura professionale per interni ed esterni.",
             shortDescription: "Servizio di imbiancatura professionale per interni ed esterni.",
             description: "Offriamo un servizio completo di imbiancatura per abitazioni, uffici e spazi commerciali. Utilizziamo vernici di alta qualità e tecniche avanzate per assicurare una finitura liscia e uniforme. Il nostro team di esperti si occupa di ogni fase del processo, dalla preparazione delle superfici alla pulizia finale, garantendo un risultato impeccabile che trasforma i tuoi spazi.",
         },
     },
-};
+};;

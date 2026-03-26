@@ -10,6 +10,7 @@ export interface Service {
     slug: string;
     image: string;
     title: string;
+    intro: string;
     shortDescription: string;
     description: string;
     icon: LucideIcon;
@@ -24,4 +25,5 @@ export interface AdditionalService {
     description: string;
     icon: LucideIcon;
     image: string;
+    intro: string;
 }

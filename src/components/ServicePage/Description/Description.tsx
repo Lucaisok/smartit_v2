@@ -5,13 +5,22 @@ interface DescriptionProps {
 }
 
 export const Description = ({ description }: DescriptionProps) => {
-    const splitted = description.split(/\r?\n/).filter(Boolean);
+    // Split on every line, preserving empty lines
+    const splitted = description.split(/\r?\n/);
+
     return (
         <section className={styles.descriptionSection}>
             <div className={styles.descriptionContainer}>
-                {splitted.map((part, idx) => (
-                    <p className={styles.text} style={{ fontWeight: idx === 0 ? 600 : 300, marginBottom: idx === 0 ? "1rem" : 0 }} key={idx}>{part}</p>
-                ))}
+                {splitted.map((part, idx) =>
+                    part.trim() === ""
+                        ? <p className={styles.text} key={idx}>&nbsp;</p>
+                        : <p
+                            className={idx === 0 ? `${styles.text} ${styles.lead}` : styles.text}
+                            key={idx}
+                        >
+                            {part}
+                        </p>
+                )}
             </div>
         </section>
     );

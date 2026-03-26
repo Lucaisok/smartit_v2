@@ -33,7 +33,7 @@ export const MainServiceCard: React.FC<MainServiceCardProp> = ({ service }) => {
             <div className={styles.content}>
                 <h3 className={styles.title}>{service.title}</h3>
                 <p className={styles.description}>
-                    {service.shortDescription}
+                    {service.intro}
                 </p>
                 <span className={styles.cta}>
                     {text.ctaLabel}

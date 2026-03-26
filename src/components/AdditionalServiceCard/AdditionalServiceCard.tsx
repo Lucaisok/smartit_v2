@@ -18,7 +18,7 @@ export const AdditionalServiceCard = ({ additionalService }: AdditionalServiceCa
             </div>
             <div className={styles.content}>
                 <h3 className={styles.title}>{additionalService.title}</h3>
-                <p className={styles.description}>{additionalService.shortDescription}</p>
+                <p className={styles.description}>{additionalService.intro}</p>
                 <div className={styles.cta}>
                     <span className={styles.ctaLabel}>{text.cardCtaLabel}</span>
                     <ArrowRight size={16} />
