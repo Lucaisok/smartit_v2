@@ -19,7 +19,7 @@ export const Hero = () => {
             <div className={styles.content}>
                 <div className={styles.inner}>
                     <h1 className={styles.title}>
-                        {hero.titleStart} <span className={styles.titleHighlight}>{hero.titleHighlight}</span> <span className={styles.titleLocation}>{hero.titleEnd}</span>
+                        {hero.titleStart} <span className={styles.titleHighlight}>{hero.titleHighlight}</span> <span className={styles.titleLocation}></span>
                     </h1>
                     <p className={styles.description}>
                         {hero.description}

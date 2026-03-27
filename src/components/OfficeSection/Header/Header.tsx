@@ -10,9 +10,11 @@ export const Header = () => {
                 <Building2 size={20} />
                 <span>{content.badge}</span>
             </div>
-            {/* <p className={styles.title}>{content.title}</p> */}
-            <h2 className={styles.titleHighlight}>{content.titleHighlight}<span className={styles.brand}> Smart it</span></h2>
-            <p className={styles.subtitle}>{content.subtitle}</p>
+            <div style={{ maxWidth: "90%", margin: "auto" }}>
+                <p className={styles.title}>{content.title}</p>
+                <h2 className={styles.titleHighlight}>{content.titleHighlight}<span className={styles.brand}> Smart it</span></h2>
+                <p className={styles.subtitle}>{content.subtitle}</p>
+            </div>
         </div>
     );
 };

@@ -30,6 +30,7 @@ export const siteContent = {
             mainHighlight: "servizi di pulizia professionale, manutenzione e facility management",
             mainLocation: "a Milano, Assago, Buccinasco e in tutta la Lombardia.",
             description: "Ci prendiamo cura del vostro immobile in ogni suo aspetto, preservandone il valore nel tempo attraverso interventi mirati e personalizzati: dalla pulizia quotidiana e straordinaria di uffici, aziende e condomini, al lavaggio di facciate e vetrate, fino alla manutenzione di impianti elettrici e idraulici, spazi verdi e aree comuni.",
+            paragraph: "Offriamo anche servizi di accoglienza, portierato e sicurezza, garantendo un ambiente ordinato, funzionale e accogliente per clienti e dipendenti. Il nostro obiettivo è diventare il vostro punto di riferimento per tutte le esigenze di gestione e cura degli spazi aziendali, industriali e direzionali."
         },
         hero: {
             imageAlt: "Milano buildings",
@@ -41,7 +42,7 @@ export const siteContent = {
             secondaryCta: "Scopri i Servizi",
         },
         contacts: {
-            title: "Pronto a Migliorare i Tuoi Spazi?",
+            title: "Pronto a Lavorare con Noi?",
             description: "Contattaci oggi per un preventivo gratuito e scopri come possiamo aiutarti",
             primaryCta: "Contattaci Ora",
         },
@@ -185,7 +186,7 @@ export const siteContent = {
     },
     servicesPage: {
         hero: {
-            image: "https://images.unsplash.com/photo-1719005764706-9805b8f8eb81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMGZhY2lsaXR5JTIwbWFuYWdlbWVudHxlbnwxfHx8fDE3NzMzMjkyNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+            image: "/servicesPageHero/cover.jpg",
             imageAlt: "Facility Management",
             titleStart: "I Nostri",
             titleHighlight: "Servizi",

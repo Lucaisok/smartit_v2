@@ -1,19 +1,29 @@
-import styles from "./About.module.css";
+import styles from "../../ServicesPage/About/AboutDescription.module.css";
 import { siteContent } from "../../../content/global";
-
-const about = siteContent.home.about;
+import Image from "next/image";
 
 export const About = () => {
+    const about = siteContent.home.about;
+    const brand = about.brand;
+    const brandParts = brand.split(" ");
+    const brandJsx = (
+        <>
+            {brandParts[0]} <span className={styles.brandIt}>{brandParts[1]}</span>
+        </>
+    );
+    const firstLine = `${about.mainIntro} ${about.mainHighlight} ${about.mainLocation}`;
+
     return (
-        <section className={styles.section}>
-            <div className={styles.container}>
-                <p className={styles.mainText}>
-                    <span className={styles.brand}>{about.brand}</span>{" "}
-                    {about.mainIntro} <strong>{about.mainHighlight}</strong>{" "}
-                    {about.mainLocation}
-                </p>
-                <p className={styles.description}>{about.description}</p>
-                <p className={styles.description + " " + styles.none}>Offriamo anche servizi di accoglienza, portierato e sicurezza, garantendo un ambiente ordinato, funzionale e accogliente per clienti e dipendenti. Il nostro obiettivo è diventare il vostro punto di riferimento per tutte le esigenze di gestione e cura degli spazi aziendali, industriali e direzionali.</p>
+        <section className={styles.descriptionSection}>
+            <div className={styles.descriptionContainer}>
+                <p className={`${styles.text} ${styles.lead}`}>{brandJsx} {firstLine}</p>
+                <p className={styles.text} style={{ marginBottom: "1rem" }}>{about.description}</p>
+                <div className={styles.paragraph}>
+                    <p className={styles.text}>{about.paragraph}</p>
+                </div>
+                <div className={styles.mobileLogoWrapper}>
+                    <Image src="/smartSoloLogo.jpg" alt="Logo" width={190} height={190} />
+                </div>
             </div>
         </section>
     );

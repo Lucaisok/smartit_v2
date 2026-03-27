@@ -48,3 +48,9 @@
     font-weight: 500;
     white-space: nowrap;
 }
+
+@media (max-width: 768px) {
+    .section {
+        display: none;
+    }
+}

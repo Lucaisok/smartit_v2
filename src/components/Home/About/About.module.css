@@ -3,6 +3,10 @@
     background-color: var(--color-white);
 }
 
+.paragraph {
+    display: none;
+}
+
 .container {
     max-width: var(--container-max-width);
     margin: 0 auto;
@@ -38,14 +42,6 @@
 @media (max-width: 768px) {
     .container {
         padding: 0 var(--container-padding-md);
-    }
-
-    /* .mainText {
-        font-size: var(--font-size-2xl);
-    } */
-
-    .none {
-        display: none;
     }
 }
 

@@ -1,8 +1,10 @@
-import { Phone } from "lucide-react";
+import { Eye, LensConcave, Phone } from "lucide-react";
 import { Benefits } from "./Benefits/Benefits";
 import { Contacts } from "./Contacts/Contacts";
 import { contacts, siteContent } from "../../../content/global";
 import styles from "./Box.module.css";
+import Link from "next/link";
+import { routes } from "@/src/lib/routes";
 
 export const Box = () => {
     const content = siteContent.officeSection.contactsLabels;
@@ -16,19 +18,18 @@ export const Box = () => {
                     </p>
                     <Benefits />
                     <Contacts />
-                    <div className={styles.cta}>
-                        <a
-                            href={`tel:${contacts.hrefPhoneNumber}`}
+                    <Link href={routes.office} className={styles.cta}>
+                        <div
                             className={styles.ctaButton}
                         >
-                            <Phone size={22} />
-                            {content.callNow}
-                        </a>
-                    </div>
+                            <Eye size={22} />
+                            Scopri di piu
+                        </div>
+                    </Link>
                 </div>
                 <div className={styles.imageWrapper}>
                     <img
-                        src="https://images.unsplash.com/photo-1774192620896-98d79d750e15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjBsb2JieSUyMHJlY2VwdGlvbnxlbnwxfHx8fDE3NzQ0MzI2NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                        src="/office-section.jpg"
                         alt="Punto Smart it"
                         className={styles.image}
                     />
