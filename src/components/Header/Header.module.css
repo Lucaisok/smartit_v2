@@ -1,3 +1,11 @@
+@media (min-width: 1024px) {
+
+    .navLink,
+    .activeNavLink {
+        font-weight: 600;
+    }
+}
+
 .header {
     position: sticky;
     top: 0;
@@ -62,6 +70,7 @@
     color: var(--color-white);
     text-decoration: none;
     transition: background var(--transition-fast);
+    font-weight: 600;
 }
 
 .ctaLink:hover {
