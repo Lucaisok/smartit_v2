@@ -99,3 +99,10 @@
 .infoExperienceLabel {
     font-size: var(--font-size-sm);
 }
+
+@media (max-width: 768px) {
+    .infoSection {
+        padding-top: 2.5em;
+        background: var(--color-white);
+    }
+}

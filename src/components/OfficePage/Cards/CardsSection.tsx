@@ -19,7 +19,7 @@ export const CardsSection = () => {
                         <p className={styles.cardTextSmall}>{cards.addressLine2}</p>
                         <div className={styles.cardSpacer}></div>
                         <a
-                            href={contacts.hrefPhoneNumber}
+                            href={contacts.mapsURL}
                             target="_blank"
                             rel="noopener noreferrer"
                             className={styles.cardLink}

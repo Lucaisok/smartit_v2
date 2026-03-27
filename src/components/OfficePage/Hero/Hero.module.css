@@ -2,7 +2,7 @@
     position: relative;
     background: #1a202c;
     color: #fff;
-    padding-top: 5rem;
+    padding-top: 4rem;
     padding-bottom: 8rem;
     min-height: 100vh;
     overflow: hidden;
@@ -57,14 +57,16 @@
     align-items: center;
     gap: 0.5rem;
     background: #7FB539;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.75rem;
     border-radius: 999px;
     margin-bottom: 1.5rem;
     font-weight: 500;
+    width: max-content;
+    min-width: 0;
 }
 
 .title {
-    font-size: 2.25rem;
+    font-size: 3.25rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
     line-height: 1.1;
@@ -72,12 +74,6 @@
 
 .titleLight {
     font-weight: 400;
-}
-
-@media (min-width: 768px) {
-    .title {
-        font-size: 3rem;
-    }
 }
 
 @media (min-width: 1024px) {
@@ -157,4 +153,29 @@
 
 .secondaryBtn:hover {
     background: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+    .heroSection {
+        min-height: 100vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .outer {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .inner {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .description {
+        margin-bottom: 1.5rem;
+    }
+    .actions {
+        margin-top: auto;
+    }
 }

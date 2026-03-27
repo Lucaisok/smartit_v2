@@ -82,7 +82,7 @@ export const siteContent = {
             addressCta: "Apri in Maps",
             phoneTitle: "Telefono",
             phoneNumber: "+39 02 828 605 83",
-            phoneNote: "Chiamaci per fissare un appuntamento",
+            phoneNote: "Chiamaci",
             phoneCta: "Chiama Ora",
             hoursTitle: "Orari di Apertura",
             hoursDays: "Lunedì - Venerdì",
@@ -204,7 +204,7 @@ export const siteContent = {
         }
     },
     officePage: {
-        badge: "Il Tuo Punto di Riferimento a Milano",
+        badge: "Il Tuo Punto di Riferimento",
         title: "Benvenuto al",
         description: "Il nostro ufficio presso il Palazzo dei Congressi Milanofiori è il luogo ideale per consulenze personalizzate, preventivi immediati e per conoscere da vicino i nostri servizi.",
         ctaLabel: "Ottieni Indicazioni"

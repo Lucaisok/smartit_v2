@@ -19,7 +19,7 @@ export const Info = () => {
                         </h2>
                         <div>
                             {content.paragraphs.map((p: string, i: number) => (
-                                <p className={styles.infoText} key={i}>{p}</p>
+                                <p className={styles.infoText} style={{ marginBottom: "2rem" }} key={i}>{p}</p>
                             ))}
                         </div>
                     </div>
@@ -35,7 +35,7 @@ export const Info = () => {
                         </div>
                     </div>
                 </div>
-                <Stats />
+                {/* <Stats /> */}
             </div>
         </section>
     );
