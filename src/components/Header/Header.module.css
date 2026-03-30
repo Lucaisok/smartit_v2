@@ -58,6 +58,8 @@
 }
 
 .activeNavLink {
+    color: var(--color-brand);
+    background: rgba(0, 0, 0, 0.03);
     border: 1px solid var(--color-brand);
     border-radius: var(--radius-md);
     transition: background var(--transition-fast), color var(--transition-fast);
