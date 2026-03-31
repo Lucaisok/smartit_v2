@@ -7,6 +7,9 @@ export const contacts = {
     addressLine2: "Assago (MI)"
 };
 export const siteContent = {
+    privacyPolicy: "Privacy Policy",
+    privacyPolicyText: "Questo sito utilizza cookie tecnici per migliorare l'esperienza utente. Per saperne di più leggi la nostra",
+    acceptButton: "Accetta",
     servicePage: {
         backToServices: "Torna ai Servizi",
         freeConsultation: "Preventivo Gratuito",

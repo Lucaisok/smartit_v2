@@ -27,6 +27,7 @@ export const Footer = () => {
                             <li><Link href={menuItems.services.href} className={styles.link}>{menuItems.services.label}</Link></li>
                             <li><Link href={menuItems.about.href} className={styles.link}>{menuItems.about.label}</Link></li>
                             <li><Link href={menuItems.contact.href} className={styles.link}>{menuItems.contact.label}</Link></li>
+                            <li><Link href={menuItems.privacyPolicy.href} className={styles.link}>{menuItems.privacyPolicy.label}</Link></li>
                         </ul>
                     </div>
 
@@ -63,7 +64,7 @@ export const Footer = () => {
                 </div>
 
                 <div className={styles.bottom}>
-                    <p>© {new Date().getFullYear()} {text.copyrightSuffix}</p>
+                    <p>© 2026 {text.copyrightSuffix}</p>
                 </div>
             </div>
         </footer>
