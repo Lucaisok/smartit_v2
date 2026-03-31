@@ -41,8 +41,8 @@ export const Hero = () => {
                                     <CheckCircle2 className={styles.featureCardIcon} size={24} />
                                 </div>
                                 <div>
-                                    <div className={styles.featureCardTitle}>15 Anni di Esperienza</div>
-                                    <div className={styles.featureCardSubtitle}>Al tuo servizio</div>
+                                    <div className={styles.featureCardTitle}>{siteContent.servicePage.yearsOfExperience}</div>
+                                    <div className={styles.featureCardSubtitle}>{siteContent.servicePage.atYourService}</div>
                                 </div>
                             </div>
                         </div>
@@ -52,8 +52,8 @@ export const Hero = () => {
                                     <CheckCircle2 className={styles.featureCardIcon} size={24} />
                                 </div>
                                 <div>
-                                    <div className={styles.featureCardTitle}>Preventivo Gratuito</div>
-                                    <div className={styles.featureCardSubtitle}>100% Garanatito</div>
+                                    <div className={styles.featureCardTitle}>{siteContent.servicePage.freeConsultation}</div>
+                                    <div className={styles.featureCardSubtitle}>{siteContent.servicePage.guarantee}</div>
                                 </div>
                             </div>
                         </div>
@@ -63,8 +63,8 @@ export const Hero = () => {
                                     <CheckCircle2 className={styles.featureCardIcon} size={24} />
                                 </div>
                                 <div>
-                                    <div className={styles.featureCardTitle}>Sopralluogo Gratuito</div>
-                                    <div className={styles.featureCardSubtitle}>100% Garanatito</div>
+                                    <div className={styles.featureCardTitle}>{siteContent.servicePage.freeInspection}</div>
+                                    <div className={styles.featureCardSubtitle}>{siteContent.servicePage.guarantee}</div>
                                 </div>
                             </div>
                         </div>
