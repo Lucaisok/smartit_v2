@@ -1,36 +1,43 @@
+"use client";
 import Link from "next/link";
-import { ArrowRight, CheckCircle2 } from "lucide-react";
+import { ArrowRight, CheckCircle2, Building2 } from "lucide-react";
 import styles from "./Hero.module.css";
 import { siteContent } from "../../../content/global";
 import { routes } from "../../../lib/routes";
-
-const hero = siteContent.home.hero;
+import { useIsMobile } from "@/src/hooks/useIsMobile";
 
 export const Hero = () => {
+    const isMobile = useIsMobile();
+    const hero = siteContent.home.hero;
+
     return (
-        <section className={styles.section}>
-            <div className={styles.overlay}>
-                <img
-                    src="/hero-bg.jpg"
-                    alt={hero.imageAlt}
-                    className={styles.overlayImage}
-                />
-            </div>
-            <div className={styles.content}>
+        <section className={styles.heroSection}>
+            <div className={styles.bgOverlay}></div>
+            <img
+                src={isMobile ? "/hero-bg1.jpg" : "/hero-bg34.jpg"}
+                alt={hero.imageAlt}
+                className={styles.bgImage}
+            />
+            <div className={styles.outer}>
                 <div className={styles.contentOverlay} aria-hidden="true" />
                 <div className={styles.inner}>
+                    <div className={styles.badge}>
+                        <Building2 size={20} />
+                        <span className={styles.badgeText}>{"Il tuo Punto di Riferimento"}</span>
+                    </div>
+
                     <h1 className={styles.title}>
-                        {hero.titleStart} <span className={styles.titleHighlight}>{hero.titleHighlight}</span> <span className={styles.titleLocation}></span>
+                        <span className={styles.titleLight}>{hero.titleStart}</span> <span className={styles.titleHighlight}>{hero.titleHighlight}</span>
                     </h1>
                     <p className={styles.description}>
                         {hero.description}
                     </p>
-                    <div className={styles.buttons}>
-                        <Link href={routes.office} className={styles.btnPrimary}>
+                    <div className={styles.actions}>
+                        <Link href={routes.office} className={styles.primaryBtn}>
                             {siteContent.header.officeLabel}
                             <ArrowRight size={22} />
                         </Link>
-                        <Link href={routes.services} className={styles.btnSecondary}>
+                        <Link href={routes.services} className={styles.secondaryBtn}>
                             {hero.secondaryCta}
                         </Link>
                     </div>

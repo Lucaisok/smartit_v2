@@ -1,5 +1,5 @@
 
-import { Building2, Navigation, Phone } from "lucide-react";
+import { Building2, CheckCircle2, Navigation, Phone } from "lucide-react";
 import styles from "./Hero.module.css";
 import { contacts, siteContent } from "@/src/content/global";
 
@@ -9,7 +9,7 @@ export const Hero = () => {
         <section className={styles.heroSection}>
             <div className={styles.bgOverlay}></div>
             <img
-                src="https://images.unsplash.com/photo-1774192620896-98d79d750e15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjByZWNlcHRpb24lMjBkZXNrJTIwcHJvZmVzc2lvbmFsfGVufDF8fHx8MTc3NDQ0Nzc2N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="/office-hero.jpeg"
                 alt="Punto Smart it"
                 className={styles.bgImage}
             />
@@ -44,6 +44,41 @@ export const Hero = () => {
                             <Navigation size={22} />
                             {content.ctaLabel}
                         </a>
+                    </div>
+                    <div className={styles.featureCards}>
+                        <div className={styles.featureCard}>
+                            <div className={styles.featureCardRow}>
+                                <div className={styles.featureCardIconBox}>
+                                    <CheckCircle2 className={styles.featureCardIcon} size={24} />
+                                </div>
+                                <div>
+                                    <div className={styles.featureCardTitle}>Gestione completa</div>
+                                    <div className={styles.featureCardSubtitle}>Tutto per la tua azienda</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.featureCard}>
+                            <div className={styles.featureCardRow}>
+                                <div className={styles.featureCardIconBox}>
+                                    <CheckCircle2 className={styles.featureCardIcon} size={24} />
+                                </div>
+                                <div>
+                                    <div className={styles.featureCardTitle}>Interventi rapidi</div>
+                                    <div className={styles.featureCardSubtitle}>Sempre presenti sul territorio</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.featureCard}>
+                            <div className={styles.featureCardRow}>
+                                <div className={styles.featureCardIconBox}>
+                                    <CheckCircle2 className={styles.featureCardIcon} size={24} />
+                                </div>
+                                <div>
+                                    <div className={styles.featureCardTitle}>Soluzioni su misura</div>
+                                    <div className={styles.featureCardSubtitle}>Adatte a ogni impresa</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

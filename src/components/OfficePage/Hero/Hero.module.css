@@ -1,3 +1,9 @@
+@media (min-width: 768px) {
+    .badge {
+        display: none;
+    }
+}
+
 @media (min-width: 767px) {
     .outer {
         position: relative;
@@ -30,7 +36,6 @@
         width: 100%;
         margin-left: 0;
         margin-right: auto;
-        max-width: 66rem;
     }
 }
 
@@ -86,12 +91,10 @@
     }
 }
 
-.inner {
-    max-width: 70rem;
-}
+
 
 .badge {
-    display: inline-flex;
+    display: none;
     align-items: center;
     gap: 0.5rem;
     background: #7FB539;
@@ -101,6 +104,12 @@
     font-weight: 500;
     width: max-content;
     min-width: 0;
+}
+
+@media (min-width: 768px) {
+    .badge {
+        display: inline-flex;
+    }
 }
 
 .title {
@@ -220,4 +229,67 @@
     .actions {
         margin-top: auto;
     }
+}
+
+.featureCards {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .featureCards {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        position: absolute;
+        right: 2rem;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 4;
+    }
+}
+
+.featureCard {
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(8px);
+    border: 2px solid #7FB539;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    transition: background 0.2s;
+    box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.10);
+}
+
+.featureCard:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.featureCardRow {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.featureCardIconBox {
+    width: 3rem;
+    height: 3rem;
+    background: #7FB539;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.featureCardIcon {
+    color: #fff;
+}
+
+.featureCardTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.featureCardSubtitle {
+    font-size: 0.95rem;
+    color: #d1d5db;
 }
