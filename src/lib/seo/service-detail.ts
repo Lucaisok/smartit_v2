@@ -32,7 +32,7 @@ export async function generateServiceMetadata(slug: string): Promise<Metadata> {
             type: "website",
             images: [
                 {
-                    url: service.image,
+                    url: "https://www.smartit-srl.com/no-text-logo.png",
                     width: 800,
                     height: 600,
                     alt: `${service.title} - Smart it`,
@@ -44,7 +44,7 @@ export async function generateServiceMetadata(slug: string): Promise<Metadata> {
             card: "summary_large_image",
             title: baseTitle,
             description: baseDescription,
-            images: [service.image],
+            images: ["https://www.smartit-srl.com/no-text-logo.png"],
         },
         alternates: {
             canonical: `https://www.smartit-srl.com/servizi/${service.slug}`,
@@ -101,6 +101,6 @@ export function getServiceStructuredData(slug: string) {
             ]
         },
         "url": `https://www.smartit-srl.com/servizi/${service.slug}`,
-        "image": service.image
+        "image": "https://www.smartit-srl.com/no-text-logo.png"
     };
 }

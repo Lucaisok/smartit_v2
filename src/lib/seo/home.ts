@@ -54,7 +54,7 @@ export const homeMetadata: Metadata = {
         type: "website",
         images: [
             {
-                url: "https://www.smartit-srl.com/public/no-text-logo.png",
+                url: "https://www.smartit-srl.com/no-text-logo.png",
                 width: 800,
                 height: 600,
                 alt: "Smart it - Building & Facility Management Milano",
@@ -67,7 +67,7 @@ export const homeMetadata: Metadata = {
         title: "Smart it - Building & Facility Management",
         description:
             "Pulizie professionali e servizi di building & facility management a Milano, Assago, Buccinasco e in tutta la Lombardia. Specialisti in pulizie professionali, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde e portierato.",
-        images: ["https://www.smartit-srl.com/public/no-text-logo.png"],
+        images: ["https://www.smartit-srl.com/no-text-logo.png"],
     },
     alternates: {
         canonical: "https://www.smartit-srl.com/",

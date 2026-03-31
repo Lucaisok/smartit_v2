@@ -17,7 +17,7 @@ export const contactsMetadata: Metadata = {
         type: "website",
         images: [
             {
-                url: "https://www.smartit-srl.com/public/no-text-logo.png",
+                url: "https://www.smartit-srl.com/no-text-logo.png",
                 width: 800,
                 height: 600,
                 alt: "Smart it - Building & Facility Management Milano",
@@ -46,7 +46,7 @@ export const contactsStructuredData = {
     "mainEntity": {
         "@type": "LocalBusiness",
         "name": "Smart it",
-        "image": "https://www.smartit-srl.com/public/no-text-logo.png",
+        "image": "https://www.smartit-srl.com/no-text-logo.png",
         "@id": "https://www.smartit-srl.com",
         "url": "https://www.smartit-srl.com",
         "telephone": "+39 02828 605 83",
