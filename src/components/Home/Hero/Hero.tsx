@@ -4,19 +4,22 @@ import { ArrowRight, CheckCircle2, Building2 } from "lucide-react";
 import styles from "./Hero.module.css";
 import { siteContent } from "../../../content/global";
 import { routes } from "../../../lib/routes";
-import { useIsMobile } from "@/src/hooks/useIsMobile";
 
 export const Hero = () => {
-    const isMobile = useIsMobile();
     const hero = siteContent.home.hero;
 
     return (
         <section className={styles.heroSection}>
             <div className={styles.bgOverlay}></div>
             <img
-                src={isMobile ? "/hero-bg1.jpg" : "/hero-bg34.jpg"}
+                src="/hero-bg34.jpg"
                 alt={hero.imageAlt}
-                className={styles.bgImage}
+                className={styles.bgImageDesktop}
+            />
+            <img
+                src="/hero-bg1.jpg"
+                alt={hero.imageAlt}
+                className={styles.bgImageMobile}
             />
             <div className={styles.outer}>
                 <div className={styles.contentOverlay} aria-hidden="true" />

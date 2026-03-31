@@ -1,9 +1,3 @@
-@media (min-width: 768px) {
-    .badge {
-        display: none;
-    }
-}
-
 @media (min-width: 767px) {
     .outer {
         position: relative;
@@ -93,8 +87,9 @@
 
 
 
+
 .badge {
-    display: none;
+    display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     background: #7FB539;
@@ -106,11 +101,7 @@
     min-width: 0;
 }
 
-@media (min-width: 768px) {
-    .badge {
-        display: inline-flex;
-    }
-}
+
 
 .title {
     font-size: 3.25rem;

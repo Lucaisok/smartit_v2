@@ -50,7 +50,9 @@
     z-index: 1;
 }
 
-.bgImage {
+
+.bgImageDesktop,
+.bgImageMobile {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -58,6 +60,20 @@
     object-fit: cover;
     z-index: 0;
     opacity: 0.5;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .bgImageDesktop {
+        display: block;
+        opacity: 0.6;
+    }
+}
+
+@media (max-width: 767px) {
+    .bgImageMobile {
+        display: block;
+    }
 }
 
 @media (min-width: 1024px) {
