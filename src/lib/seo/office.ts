@@ -1,24 +1,24 @@
 import type { Metadata } from "next";
 
 export const officeMetadata: Metadata = {
-    title: "Punto Smart it | Ufficio e Consulenze - Facility Management Milano",
+    title: "Punto Smart it | Ufficio e Consulenze - Building & Facility Management",
     description:
-        "Vieni a trovarci al Punto Smart it a Milanofiori Assago: consulenze gratuite, sopralluoghi e preventivi personalizzati per servizi di facility management, pulizie e manutenzioni a Milano e Lombardia.",
+        "Vieni a trovarci al Punto Smart it a Milanofiori, Assago: consulenze gratuite, sopralluoghi e preventivi personalizzati per servizi di facility management, pulizie e manutenzioni.",
     keywords: [
         "Punto Smart it",
         "ufficio Smart it",
-        "consulenza gratuita Milano",
-        "sopralluogo gratuito Milano",
-        "facility management Milanofiori",
-        "servizi pulizia Assago",
-        "manutenzione uffici Milano",
-        "preventivo facility management Milano",
-        "Smart it Milanofiori",
-        "servizi professionali Milano",
-        "ufficio servizi Milano"
+        "consulenza gratuita ",
+        "sopralluogo gratuito",
+        "facility management",
+        "servizi pulizia",
+        "manutenzione uffici",
+        "preventivo facility management",
+        "Smart it",
+        "servizi professionali Assago",
+        "ufficio servizi Assago"
     ],
     openGraph: {
-        title: "Punto Smart it | Ufficio e Consulenze - Facility Management Milano",
+        title: "Punto Smart it | Ufficio e Consulenze - Building & Facility Management Milano",
         description:
             "Vieni a trovarci al Punto Smart it a Milanofiori Assago: consulenze gratuite, sopralluoghi e preventivi personalizzati per servizi di facility management, pulizie e manutenzioni a Milano e Lombardia.",
         url: "https://www.smartit-srl.com/punto-smartit",
@@ -36,7 +36,7 @@ export const officeMetadata: Metadata = {
     twitter: {
         card: "summary_large_image",
         site: "@smartitmilano",
-        title: "Punto Smart it | Ufficio e Consulenze - Facility Management Milano",
+        title: "Punto Smart it | Ufficio e Consulenze - Building & Facility Management Milano",
         description:
             "Vieni a trovarci al Punto Smart it a Milanofiori Assago: consulenze gratuite, sopralluoghi e preventivi personalizzati per servizi di facility management, pulizie e manutenzioni a Milano e Lombardia.",
         images: ["https://www.smartit-srl.com/public/no-text-logo.png"]

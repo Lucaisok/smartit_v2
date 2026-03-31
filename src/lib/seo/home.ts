@@ -4,9 +4,9 @@ import { services, additionalServices } from "../services";
 export const homeStructuredData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Smart it - Facility Management",
+    "name": "Smart it - Building & Facility Management",
     "url": "https://www.smartit-srl.com/",
-    "description": "Pulizie professionali a Milano, Assago, Buccinasco. Facility management, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde, portierato.",
+    "description": "Pulizie professionali a Milano, Assago, Buccinasco e in tutta la Lombardia. Facility management, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde, portierato.",
     "mainEntity": [
         ...services.map(s => ({
             "@type": "Service",
@@ -26,9 +26,9 @@ export const homeStructuredData = {
 
 
 export const homeMetadata: Metadata = {
-    title: "Smart it - Facility Management",
+    title: "Smart it - Building & Facility Management",
     description:
-        "Pulizie professionali a Milano, Assago, Buccinasco. Facility management, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde, portierato. Servizi professionali per aziende e condomini.",
+        "Pulizie professionali a Milano, Assago, Buccinasco e in tutta la Lombardia. Building & facility management, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde, portierato. Servizi professionali per aziende e condomini.",
     keywords: [
         "pulizie professionali Milano",
         "pulizie professionali Assago",
@@ -47,9 +47,9 @@ export const homeMetadata: Metadata = {
         "servizi aziende Buccinasco",
     ],
     openGraph: {
-        title: "Smart it - Facility Management",
+        title: "Smart it - Building & Facility Management",
         description:
-            "Pulizie professionali e servizi di facility management a Milano, Assago, Buccinasco. Specialisti in pulizie professionali, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde e portierato.",
+            "Pulizie professionali e servizi di building & facility management a Milano, Assago, Buccinasco e in tutta la Lombardia. Specialisti in pulizie professionali, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde e portierato.",
         url: "https://www.smartit-srl.com",
         type: "website",
         images: [
@@ -57,17 +57,16 @@ export const homeMetadata: Metadata = {
                 url: "https://www.smartit-srl.com/public/no-text-logo.png",
                 width: 800,
                 height: 600,
-                alt: "Smart it - Facility Management Milano",
+                alt: "Smart it - Building & Facility Management Milano",
             },
         ],
         locale: "it_IT",
     },
     twitter: {
         card: "summary_large_image",
-        site: "@smartitmilano",
-        title: "Smart it - Facility Management",
+        title: "Smart it - Building & Facility Management",
         description:
-            "Pulizie professionali e servizi di facility management a Milano, Assago, Buccinasco. Specialisti in pulizie professionali, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde e portierato.",
+            "Pulizie professionali e servizi di building & facility management a Milano, Assago, Buccinasco e in tutta la Lombardia. Specialisti in pulizie professionali, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde e portierato.",
         images: ["https://www.smartit-srl.com/public/no-text-logo.png"],
     },
     alternates: {

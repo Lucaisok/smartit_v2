@@ -2,11 +2,11 @@
 import type { Metadata } from "next";
 
 export const siteMetadata: Metadata = {
-    title: "Smart it - Facility Management",
-    description: "Pulizie professionali a Milano, Assago, Buccinasco. Facility management, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde, portierato. Servizi professionali per aziende e condomini.",
+    title: "Smart it - Building & Facility Management",
+    description: "Pulizie professionali a Milano, Assago, Buccinasco e in tutta la Lombardia. Building & facility management, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde, portierato. Servizi professionali per aziende e condomini.",
     openGraph: {
-        title: "Smart it - Facility Management",
-        description: "Pulizie professionali e servizi di facility management a Milano, Assago, Buccinasco. Specialisti in pulizie professionali, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde e portierato.",
+        title: "Smart it - Building & Facility Management",
+        description: "Pulizie professionali e servizi di building & facility management a Milano, Assago, Buccinasco e in tutta la Lombardia. Specialisti in pulizie professionali, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde e portierato.",
         url: "https://www.smartit-srl.com",
         type: "website",
         images: [
@@ -14,7 +14,7 @@ export const siteMetadata: Metadata = {
                 url: "https://www.smartit-srl.com/public/no-text-logo.png",
                 width: 800,
                 height: 600,
-                alt: "Smart it - Facility Management Milano"
+                alt: "Smart it - Building & Facility Management"
             }
         ],
         locale: "it_IT"
@@ -22,8 +22,8 @@ export const siteMetadata: Metadata = {
     twitter: {
         card: "summary_large_image",
         site: "@smartitmilano",
-        title: "Smart it - Facility Management",
-        description: "Pulizie professionali e servizi di facility management a Milano, Assago, Buccinasco. Specialisti in pulizie professionali, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde e portierato.",
+        title: "Smart it - Building & Facility Management",
+        description: "Pulizie professionali e servizi di building & facility management a Milano, Assago, Buccinasco e in tutta la Lombardia. Specialisti in pulizie professionali, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde e portierato.",
         images: ["https://www.smartit-srl.com/public/no-text-logo.png"]
     },
     alternates: {
@@ -53,7 +53,7 @@ export const siteStructuredData = {
         "logo": "https://www.smartit-srl.com/public/no-text-logo.png",
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+39 02828 605 83",
+            "telephone": "+39 02 828 605 83",
             "contactType": "Contact",
             "areaServed": "IT",
             "availableLanguage": ["Italian", "English"]
@@ -66,7 +66,7 @@ export const siteStructuredData = {
         "image": "https://www.smartit-srl.com/public/no-text-logo.png",
         "@id": "https://www.smartit-srl.com",
         "url": "https://www.smartit-srl.com",
-        "telephone": "+39 02828 605 83",
+        "telephone": "+39 02 828 605 83",
         "email": "Info@smartit-srl.com",
         "address": {
             "@type": "PostalAddress",
@@ -76,6 +76,6 @@ export const siteStructuredData = {
         },
         "openingHours": "Mo-Fr 09:00-18:00",
         "areaServed": ["Milano", "Assago", "Buccinasco"],
-        "description": "Pulizie professionali a Milano, Assago, Buccinasco e facility management. Specializzati in pulizie professionali, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde e servizi di portierato."
+        "description": "Building & facility management a Milano, Assago, Buccinasco e in tutta la Lombardia. Specializzati in pulizie professionali, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde e servizi di portierato."
     }
 };

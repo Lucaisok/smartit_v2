@@ -5,17 +5,18 @@ export async function generateServiceMetadata(slug: string): Promise<Metadata> {
     const service = [...services, ...additionalServices].find((s) => s.slug === slug);
     if (!service) return {};
 
-    const locations = "Milano, Assago, Buccinasco";
+    const locations = "Milano, Assago, Buccinasco e in tutta la Lombardia";
     const baseTitle = `Smart it | ${service.title} a ${locations}`;
     const baseDescription = `${service.shortDescription} Offriamo preventivo gratuito e sopralluogo gratuito a ${locations}. ${service.description}`;
     const keywords = [
         service.title,
-        "servizi facility management Milano",
+        "servizi facility management",
         "preventivo gratuito",
         "sopralluogo gratuito",
         "Milano",
         "Assago",
         "Buccinasco",
+        "Lombardia",
         "Smart it",
     ];
 
@@ -26,21 +27,21 @@ export async function generateServiceMetadata(slug: string): Promise<Metadata> {
         openGraph: {
             title: baseTitle,
             description: baseDescription,
+            siteName: "Smart it",
             url: `https://www.smartit-srl.com/servizi/${service.slug}`,
-            type: "article",
+            type: "website",
             images: [
                 {
                     url: service.image,
                     width: 800,
                     height: 600,
-                    alt: `${service.title} - Smart it Milano`,
+                    alt: `${service.title} - Smart it`,
                 },
             ],
             locale: "it_IT",
         },
         twitter: {
             card: "summary_large_image",
-            site: "@smartitmilano",
             title: baseTitle,
             description: baseDescription,
             images: [service.image],
@@ -67,7 +68,7 @@ export async function generateServiceMetadata(slug: string): Promise<Metadata> {
 export function getServiceStructuredData(slug: string) {
     const service = [...services, ...additionalServices].find((s) => s.slug === slug);
     if (!service) return null;
-    const locations = ["Milano", "Assago", "Buccinasco"];
+    const locations = ["Milano", "Assago", "Buccinasco", "Lombardia"];
     return {
         "@context": "https://schema.org",
         "@type": "Service",

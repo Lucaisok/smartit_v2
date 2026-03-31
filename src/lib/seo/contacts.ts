@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 
 export const contactsMetadata: Metadata = {
-    title: "Contatti | Smart it - Facility Management Milano",
+    title: "Contatti | Smart it - Building & Facility Management",
     description:
         "Contatta Smart it per informazioni, preventivi o richieste sui nostri servizi di facility management a Milano. Rispondiamo rapidamente via telefono, email o WhatsApp.",
     alternates: {
         canonical: "https://www.smartit-srl.com/contatti",
     },
     openGraph: {
-        title: "Contatti | Smart it - Facility Management Milano",
+        title: "Contatti | Smart it - Building & Facility Management",
         description:
-            "Contatta Smart it per informazioni, preventivi o richieste sui nostri servizi di facility management a Milano. Rispondiamo rapidamente via telefono, email o WhatsApp.",
+            "Contatta Smart it per informazioni, preventivi o richieste sui nostri servizi di building & facility management a Milano. Rispondiamo rapidamente via telefono, email o WhatsApp.",
         url: "https://www.smartit-srl.com/contatti",
         siteName: "Smart it",
         locale: "it_IT",
@@ -20,7 +20,7 @@ export const contactsMetadata: Metadata = {
                 url: "https://www.smartit-srl.com/public/no-text-logo.png",
                 width: 800,
                 height: 600,
-                alt: "Smart it - Facility Management Milano",
+                alt: "Smart it - Building & Facility Management Milano",
             },
         ],
     },
@@ -39,10 +39,10 @@ export const contactsMetadata: Metadata = {
 export const contactsStructuredData = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "name": "Contatti | Smart it - Facility Management Milano",
+    "name": "Contatti | Smart it - Building & Facility Management Milano",
     "url": "https://www.smartit-srl.com/contatti",
     "description":
-        "Contatta Smart it per informazioni, preventivi o richieste sui nostri servizi di facility management a Milano. Rispondiamo rapidamente via telefono, email o WhatsApp.",
+        "Contatta Smart it per informazioni, preventivi o richieste sui nostri servizi di building & facility management a Milano. Rispondiamo rapidamente via telefono, email o WhatsApp.",
     "mainEntity": {
         "@type": "LocalBusiness",
         "name": "Smart it",

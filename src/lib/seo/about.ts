@@ -1,24 +1,24 @@
 import type { Metadata } from "next";
 
 export const aboutMetadata: Metadata = {
-    title: "Chi Siamo | Smart it - Facility Management Milano",
-    description: "Scopri la storia, i valori e la missione di Smart it. Azienda leader nel facility management a Milano, Assago e Buccinasco. Esperienza, innovazione e servizi su misura per aziende e condomini.",
+    title: "Chi Siamo | Smart it - Building & Facility Management",
+    description: "Scopri la storia, i valori e la missione di Smart it. Azienda leader nel facility management a Milano, Assago, Buccinasco e in tutta la Lombardia. Esperienza, innovazione e servizi su misura per aziende e condomini.",
     keywords: [
         "chi siamo Smart it",
         "facility management Milano",
-        "azienda pulizie Milano",
+        "azienda pulizie Assago",
         "valori Smart it",
         "missione Smart it",
         "team Smart it",
-        "servizi professionali Milano",
-        "manutenzione uffici Milano",
-        "pulizie uffici Milano",
-        "Smart it Milano",
-        "azienda servizi Milano"
+        "servizi professionali Assago",
+        "manutenzione uffici Assago",
+        "pulizie uffici Assago",
+        "Smart it Assago",
+        "azienda servizi Assago"
     ],
     openGraph: {
-        title: "Chi Siamo | Smart it - Facility Management Milano",
-        description: "Scopri la storia, i valori e la missione di Smart it. Azienda leader nel facility management a Milano, Assago e Buccinasco. Esperienza, innovazione e servizi su misura per aziende e condomini.",
+        title: "Chi Siamo | Smart it - Building & Facility Management",
+        description: "Scopri la storia, i valori e la missione di Smart it. Azienda leader nel facility management a Milano, Assago, Buccinasco e in tutta la Lombardia. Esperienza, innovazione e servizi su misura per aziende e condomini.",
         url: "https://www.smartit-srl.com/chi-siamo",
         type: "website",
         images: [
@@ -33,9 +33,8 @@ export const aboutMetadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        site: "@smartitmilano",
-        title: "Chi Siamo | Smart it - Facility Management Milano",
-        description: "Scopri la storia, i valori e la missione di Smart it. Azienda leader nel facility management a Milano, Assago e Buccinasco. Esperienza, innovazione e servizi su misura per aziende e condomini.",
+        title: "Chi Siamo | Smart it - Building & Facility Management",
+        description: "Scopri la storia, i valori e la missione di Smart it. Azienda leader nel facility management a Milano, Assago, Buccinasco e in tutta la Lombardia. Esperienza, innovazione e servizi su misura per aziende e condomini.",
         images: ["https://www.smartit-srl.com/public/no-text-logo.png"]
     },
     alternates: {
@@ -59,9 +58,9 @@ export const aboutMetadata: Metadata = {
 export const aboutStructuredData = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "name": "Chi Siamo | Smart it - Facility Management Milano",
+    "name": "Chi Siamo | Smart it - Building & Facility Management",
     "url": "https://www.smartit-srl.com/chi-siamo",
-    "description": "Scopri la storia, i valori e la missione di Smart it. Azienda leader nel facility management a Milano, Assago e Buccinasco. Esperienza, innovazione e servizi su misura per aziende e condomini.",
+    "description": "Scopri la storia, i valori e la missione di Smart it. Azienda leader nel facility management a Milano, Assago, Buccinasco e in tutta la Lombardia. Esperienza, innovazione e servizi su misura per aziende e condomini.",
     "publisher": {
         "@type": "Organization",
         "name": "Smart it",
