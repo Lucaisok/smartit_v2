@@ -1,6 +1,8 @@
 export const contacts = {
     hrefPhoneNumber: "tel:+390282860583",
     phoneNumber: "+39 02 828 605 83",
+    mobileNumber: "+39 348 332 7741",
+    whatsappHref: "https://wa.me/393483327741",
     email: "info@smartit.com",
     mapsURL: "https://maps.app.goo.gl/gvpoyVtXfuMnt6rZ8",
     addressLine1: "Palazzo dei Congressi Milanofiori",
@@ -230,7 +232,7 @@ export const siteContent = {
     },
     footer: {
         logoAlt: "Smart it",
-        companyDescription: "Soluzioni professionali per la gestione e manutenzione di spazi aziendali a Milano.",
+        companyDescription: "Soluzioni professionali per la gestione e manutenzione di spazi aziendali.",
         quickLinksTitle: "Link Rapidi",
         servicesTitle: "Servizi Principali",
         routineCleaning: "Pulizie Ordinarie",
@@ -250,13 +252,13 @@ export const siteContent = {
             description: "Hai bisogno di informazioni o vuoi richiedere un preventivo?"
         },
         form: {
-            title: "Richiedi un Preventivo",
+            title: "Inviaci un messaggio",
             nameLabel: "Nome e Cognome *",
             emailLabel: "Email *",
             phoneLabel: "Telefono",
             messageLabel: "Messaggio *",
             messagePlaceholder: "Descrivi la tua richiesta...",
-            button: "Invia Richiesta",
+            button: "Invia",
             success: "Grazie per averci contattato! Ti risponderemo al più presto."
         }
     },
@@ -267,9 +269,7 @@ export const siteContent = {
             shortDescription: `I nostri servizi di pulizie ordinarie per aziende, uffici e strutture professionali garantiscono ambienti sempre puliti, igienizzati e accoglienti.`,
             description: `Operiamo con puntualità, discrezione e la massima attenzione alle vostre esigenze, organizzando i nostri interventi in modo da non interferire con le attività quotidiane della vostra azienda.
 
-Utilizziamo solo prodotti certificati e attrezzature professionali di ultima generazione, affidandoci a personale esperto e costantemente formato sulle migliori pratiche del settore. Offriamo piani di pulizia personalizzati, studiati per garantire nel tempo standard elevati di igiene, ordine e decoro in ogni ambiente lavorativo, sia per interventi ordinari che straordinari.
-
-Siamo attivi a Milano, Assago, Buccinasco e nei comuni limitrofi, assicurando sempre affidabilità, flessibilità e sopralluoghi gratuiti per rispondere a qualsiasi esigenza.`,
+Utilizziamo solo prodotti certificati e attrezzature professionali di ultima generazione, affidandoci a personale esperto e costantemente formato sulle migliori pratiche del settore. Offriamo piani di pulizia personalizzati, studiati per garantire nel tempo standard elevati di igiene, ordine e decoro in ogni ambiente lavorativo, sia per interventi ordinari che straordinari.`,
             faqs: [
                 {
                     question: "Con quale frequenza effettuate le pulizie?",

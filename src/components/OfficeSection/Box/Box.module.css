@@ -42,7 +42,7 @@
 
 @media (min-width: 1024px) {
     .content {
-        padding: 3rem;
+        /* padding: 3rem; */
         order: 1;
     }
 }

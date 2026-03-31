@@ -1,9 +1,10 @@
-
+"use client";
 import { contacts, siteContent } from "@/src/content/global";
 import { routes } from "@/src/lib/routes";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, MessageCircle } from "lucide-react";
 import Link from "next/link";
 import styles from "./Contacts.module.css";
+import { useIsMobile } from "@/src/hooks/useIsMobile";
 
 interface ContactsProps {
     serviceTitle: string;
@@ -11,6 +12,7 @@ interface ContactsProps {
 
 export const Contacts = ({ serviceTitle }: ContactsProps) => {
     const content = siteContent.servicePage;
+    const isMobile = useIsMobile();
 
     return (
         <section className={styles.contactsSection}>
@@ -24,9 +26,20 @@ export const Contacts = ({ serviceTitle }: ContactsProps) => {
                         {content.ctaButton}
                         <ArrowRight size={20} />
                     </Link>
-                    <a href={`tel:${contacts.hrefPhoneNumber}`} className={styles.call}>
-                        {content.ctaCall}
-                    </a>
+                    {!isMobile
+                        ? <a href={`tel:${contacts.hrefPhoneNumber}`} className={styles.call}>
+                            {content.ctaCall}
+                        </a>
+                        : (
+                            <a
+                                href={contacts.whatsappHref}
+                                className={styles.call}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <MessageCircle size={16} />  {siteContent.officeSection.contactsLabels.sendMessage}
+                            </a>
+                        )}
                 </div>
             </div>
         </section>

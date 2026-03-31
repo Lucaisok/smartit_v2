@@ -17,7 +17,7 @@ export const Contacts = () => {
                         <div>
                             <div className={styles.infoLabel}>{officeLabels.WhatsApp}</div>
                             <a
-                                href="https://wa.me/393483327741"
+                                href={contacts.whatsappHref}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={styles.whatsappButton}
