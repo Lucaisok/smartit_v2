@@ -14,6 +14,7 @@ export const Hero = () => {
                 className={styles.bgImage}
             />
             <div className={styles.outer}>
+                <div className={styles.contentOverlay} aria-hidden="true" />
                 <div className={styles.inner}>
                     <div className={styles.badge}>
                         <Building2 size={20} />

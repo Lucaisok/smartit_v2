@@ -1,3 +1,39 @@
+@media (min-width: 767px) {
+    .outer {
+        position: relative;
+        display: flex;
+        align-items: center;
+        min-height: 60vh;
+    }
+
+    .contentOverlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        max-width: 78rem;
+        background: rgba(30, 31, 36, 0.7);
+        border-radius: var(--radius-lg);
+        z-index: 2;
+        filter: blur(0px);
+        box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.10);
+        pointer-events: none;
+        margin-left: 0;
+        margin-right: auto;
+        padding-top: 2rem;
+    }
+
+    .inner {
+        position: relative;
+        z-index: 3;
+        width: 100%;
+        margin-left: 0;
+        margin-right: auto;
+        max-width: 66rem;
+    }
+}
+
 .heroSection {
     position: relative;
     background: #1a202c;
@@ -38,6 +74,8 @@
     .outer {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 }
 
@@ -49,7 +87,7 @@
 }
 
 .inner {
-    max-width: 56rem;
+    max-width: 70rem;
 }
 
 .badge {
@@ -162,19 +200,23 @@
         display: flex;
         flex-direction: column;
     }
+
     .outer {
         flex: 1 1 auto;
         display: flex;
         flex-direction: column;
     }
+
     .inner {
         flex: 1 1 auto;
         display: flex;
         flex-direction: column;
     }
+
     .description {
         margin-bottom: 1.5rem;
     }
+
     .actions {
         margin-top: auto;
     }

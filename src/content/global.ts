@@ -212,7 +212,7 @@ export const siteContent = {
         }
     },
     officePage: {
-        badge: "Il Tuo Punto di Riferimento",
+        badge: "Un Riferimento Concreto",
         title: "Benvenuto al",
         description: "Il nostro ufficio presso il Palazzo dei Congressi Milanofiori è il luogo ideale per consulenze personalizzate, preventivi immediati e per conoscere da vicino i nostri servizi.",
         ctaLabel: "Ottieni Indicazioni"
