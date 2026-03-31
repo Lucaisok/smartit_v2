@@ -226,8 +226,8 @@ export const siteContent = {
         contattiLabel: "Contatti",
         ctaHref: "/contatti",
         ctaLabel: "Preventivo Gratuito",
-        mobileFooterPrimary: "Smart it - Facility Management",
-        mobileFooterSecondary: "Milano",
+        mobileFooterPrimary: `Smart it`,
+        mobileFooterSecondary: "Building & Facility Management",
         officeLabel: "Punto Smart it"
     },
     footer: {
