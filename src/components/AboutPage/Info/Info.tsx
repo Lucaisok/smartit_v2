@@ -1,10 +1,13 @@
+"use client";
 import { Award } from "lucide-react";
-import { Stats } from "./Stats/Stats";
 import styles from "./Info.module.css";
 import { siteContent } from "../../../content/global";
+import { useIsMobile } from "@/src/hooks/useIsMobile";
 
 export const Info = () => {
     const content = siteContent.aboutPage.info;
+    const isMobile = useIsMobile();
+
     return (
         <section className={styles.infoSection}>
             <div className={styles.infoContainer}>
@@ -23,7 +26,7 @@ export const Info = () => {
                             ))}
                         </div>
                     </div>
-                    <div className={styles.infoImageWrapper}>
+                    {!isMobile && <div className={styles.infoImageWrapper}>
                         <img
                             src={content.image.src}
                             alt={content.image.alt}
@@ -33,9 +36,8 @@ export const Info = () => {
                             <div className={styles.infoExperienceNumber}>{content.experience.number}</div>
                             <div className={styles.infoExperienceLabel}>{content.experience.label}</div>
                         </div>
-                    </div>
+                    </div>}
                 </div>
-                {/* <Stats /> */}
             </div>
         </section>
     );

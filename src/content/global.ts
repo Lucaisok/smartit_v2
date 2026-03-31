@@ -169,7 +169,7 @@ export const siteContent = {
             valuesSection: {
                 titleStart: "I Nostri",
                 titleHighlight: "Valori",
-                subtitle: "I principi che guidano ogni nostro intervento e che ci rendono il partner ideale per il vostro facility management",
+                subtitle: "I principi che guidano ogni nostro intervento e che ci rendono il partner ideale per la cura dei vostri spazi",
             },
             badge: {
                 icon: "award",

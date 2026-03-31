@@ -37,7 +37,7 @@ export const Contacts = ({ serviceTitle }: ContactsProps) => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <MessageCircle size={16} />  {siteContent.officeSection.contactsLabels.sendMessage}
+                                <MessageCircle size={16} />  {"Inviaci un messaggio"}
                             </a>
                         )}
                 </div>

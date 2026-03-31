@@ -5,7 +5,7 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .box {
         border-radius: 0;
         margin-left: 0;
@@ -16,13 +16,20 @@
     }
 
     .imageWrapper {
-        height: 400px;
+        height: 600px;
     }
 }
 
 .grid {
     display: grid;
     gap: 0;
+}
+
+@media (max-width: 767px) {
+
+    .imageWrapper {
+        height: 400px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -99,6 +106,7 @@
 @media (min-width: 1024px) {
     .imageWrapper {
         height: auto;
+        max-height: 850px;
         order: 2;
     }
 }
