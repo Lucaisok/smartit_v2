@@ -21,11 +21,11 @@ export const officeMetadata: Metadata = {
         title: "Punto Smart it | Ufficio e Consulenze - Building & Facility Management Milano",
         description:
             "Vieni a trovarci al Punto Smart it a Milanofiori Assago: consulenze gratuite, sopralluoghi e preventivi personalizzati per servizi di facility management, pulizie e manutenzioni a Milano e Lombardia.",
-        url: "https://www.smartit-srl.com/punto-smartit",
+        url: "https://smartit-srl.com/punto-smartit",
         type: "website",
         images: [
             {
-                url: "https://www.smartit-srl.com/no-text-logo.png",
+                url: "https://smartit-srl.com/no-text-logo.png",
                 width: 800,
                 height: 600,
                 alt: "Smart it - Punto Smart it Milanofiori"
@@ -39,10 +39,10 @@ export const officeMetadata: Metadata = {
         title: "Punto Smart it | Ufficio e Consulenze - Building & Facility Management Milano",
         description:
             "Vieni a trovarci al Punto Smart it a Milanofiori Assago: consulenze gratuite, sopralluoghi e preventivi personalizzati per servizi di facility management, pulizie e manutenzioni a Milano e Lombardia.",
-        images: ["https://www.smartit-srl.com/no-text-logo.png"]
+        images: ["https://smartit-srl.com/no-text-logo.png"]
     },
     alternates: {
-        canonical: "https://www.smartit-srl.com/punto-smartit",
+        canonical: "https://smartit-srl.com/punto-smartit",
         languages: {
             "it-IT": "/punto-smartit"
         }

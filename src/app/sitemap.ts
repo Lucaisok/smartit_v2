@@ -3,7 +3,7 @@ import { services, additionalServices } from '@/src/lib/services';
 
 function getBaseUrl() {
     if (process.env.NODE_ENV === 'production') {
-        return 'https://www.smartit-srl.com';
+        return 'https://smartit-srl.com';
     }
     return 'http://localhost:3000';
 }

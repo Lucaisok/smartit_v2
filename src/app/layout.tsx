@@ -30,7 +30,7 @@ export default function RootLayout({
     <html lang="it">
       <head>
         <link rel="icon" href="/SmartSoloLogo.jpg" type="image/jpeg" />
-        <link rel="canonical" href="https://www.smartit-srl.com/" />
+        <link rel="canonical" href="https://smartit-srl.com/" />
         <link rel="alternate" href="/" hrefLang="it-IT" />
         <script type="application/ld+json">
           {JSON.stringify(siteStructuredData.organization)}

@@ -7,11 +7,11 @@ export const siteMetadata: Metadata = {
     openGraph: {
         title: "Smart it - Building & Facility Management",
         description: "Pulizie professionali e servizi di building & facility management a Milano, Assago, Buccinasco e in tutta la Lombardia. Specialisti in pulizie professionali, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde e portierato.",
-        url: "https://www.smartit-srl.com",
+        url: "https://smartit-srl.com",
         type: "website",
         images: [
             {
-                url: "https://www.smartit-srl.com/no-text-logo.png",
+                url: "https://smartit-srl.com/no-text-logo.png",
                 width: 800,
                 height: 600,
                 alt: "Smart it - Building & Facility Management"
@@ -24,10 +24,10 @@ export const siteMetadata: Metadata = {
         site: "@smartitmilano",
         title: "Smart it - Building & Facility Management",
         description: "Pulizie professionali e servizi di building & facility management a Milano, Assago, Buccinasco e in tutta la Lombardia. Specialisti in pulizie professionali, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde e portierato.",
-        images: ["https://www.smartit-srl.com/no-text-logo.png"]
+        images: ["https://smartit-srl.com/no-text-logo.png"]
     },
     alternates: {
-        canonical: "https://www.smartit-srl.com/",
+        canonical: "https://smartit-srl.com/",
         languages: {
             "it-IT": "/",
         }
@@ -49,8 +49,8 @@ export const siteStructuredData = {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Smart it",
-        "url": "https://www.smartit-srl.com",
-        "logo": "https://www.smartit-srl.com/public/no-text-logo.png",
+        "url": "https://smartit-srl.com",
+        "logo": "https://smartit-srl.com/public/no-text-logo.png",
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+39 02 828 605 83",
@@ -63,9 +63,9 @@ export const siteStructuredData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Smart it",
-        "image": "https://www.smartit-srl.com/public/no-text-logo.png",
-        "@id": "https://www.smartit-srl.com",
-        "url": "https://www.smartit-srl.com",
+        "image": "https://smartit-srl.com/public/no-text-logo.png",
+        "@id": "https://smartit-srl.com",
+        "url": "https://smartit-srl.com",
         "telephone": "+39 02 828 605 83",
         "email": "Info@smartit-srl.com",
         "address": {

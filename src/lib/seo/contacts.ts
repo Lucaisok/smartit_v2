@@ -5,19 +5,19 @@ export const contactsMetadata: Metadata = {
     description:
         "Contatta Smart it per informazioni, preventivi o richieste sui nostri servizi di facility management a Milano. Rispondiamo rapidamente via telefono, email o WhatsApp.",
     alternates: {
-        canonical: "https://www.smartit-srl.com/contatti",
+        canonical: "https://smartit-srl.com/contatti",
     },
     openGraph: {
         title: "Contatti | Smart it - Building & Facility Management",
         description:
             "Contatta Smart it per informazioni, preventivi o richieste sui nostri servizi di building & facility management a Milano. Rispondiamo rapidamente via telefono, email o WhatsApp.",
-        url: "https://www.smartit-srl.com/contatti",
+        url: "https://smartit-srl.com/contatti",
         siteName: "Smart it",
         locale: "it_IT",
         type: "website",
         images: [
             {
-                url: "https://www.smartit-srl.com/no-text-logo.png",
+                url: "https://smartit-srl.com/no-text-logo.png",
                 width: 800,
                 height: 600,
                 alt: "Smart it - Building & Facility Management Milano",
@@ -40,15 +40,15 @@ export const contactsStructuredData = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
     "name": "Contatti | Smart it - Building & Facility Management Milano",
-    "url": "https://www.smartit-srl.com/contatti",
+    "url": "https://smartit-srl.com/contatti",
     "description":
         "Contatta Smart it per informazioni, preventivi o richieste sui nostri servizi di building & facility management a Milano. Rispondiamo rapidamente via telefono, email o WhatsApp.",
     "mainEntity": {
         "@type": "LocalBusiness",
         "name": "Smart it",
-        "image": "https://www.smartit-srl.com/no-text-logo.png",
-        "@id": "https://www.smartit-srl.com",
-        "url": "https://www.smartit-srl.com",
+        "image": "https://smartit-srl.com/no-text-logo.png",
+        "@id": "https://smartit-srl.com",
+        "url": "https://smartit-srl.com",
         "telephone": "+39 02828 605 83",
         "email": "Info@smartit-srl.com",
         "address": {

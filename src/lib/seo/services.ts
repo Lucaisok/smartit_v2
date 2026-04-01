@@ -23,11 +23,11 @@ export const servicesMetadata: Metadata = {
     openGraph: {
         title: "Smart it | Servizi di Building & Facility Management a Milano, Assago, Buccinasco e in tutta la Lombardia",
         description: "Tutti i servizi Smart it: pulizie uffici, pulizie industriali, condominiali e post cantiere, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde, portierato e altro ancora a Milano, Assago, Buccinasco e in tutta la Lombardia.",
-        url: "https://www.smartit-srl.com/servizi",
+        url: "https://smartit-srl.com/servizi",
         type: "website",
         images: [
             {
-                url: "https://www.smartit-srl.com/no-text-logo.png",
+                url: "https://smartit-srl.com/no-text-logo.png",
                 width: 800,
                 height: 600,
                 alt: "Smart it - Servizi Building & Facility Management Milano"
@@ -39,10 +39,10 @@ export const servicesMetadata: Metadata = {
         card: "summary_large_image",
         title: "Smart it | Servizi di Building & Facility Management a Milano, Assago, Buccinasco e in tutta la Lombardia",
         description: "Tutti i servizi Smart it: pulizie uffici, pulizie industriali, condominiali e post cantiere, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde, portierato e altro ancora a Milano, Assago, Buccinasco e in tutta la Lombardia.",
-        images: ["https://www.smartit-srl.com/no-text-logo.png"]
+        images: ["https://smartit-srl.com/no-text-logo.png"]
     },
     alternates: {
-        canonical: "https://www.smartit-srl.com/servizi",
+        canonical: "https://smartit-srl.com/servizi",
         languages: {
             "it-IT": "/servizi",
         }
@@ -63,20 +63,20 @@ export const servicesStructuredData = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "name": "Smart it | Servizi di Building & Facility Management a Milano, Assago, Buccinasco e in tutta la Lombardia",
-    "url": "https://www.smartit-srl.com/servizi",
+    "url": "https://smartit-srl.com/servizi",
     "description": "Tutti i servizi offerti da Smart it a Milano, Assago, Buccinasco e in tutta la Lombardia: pulizie uffici, pulizie industriali, condominiali e post cantiere, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde, portierato e altro ancora.",
     "hasPart": [
         ...services.map(s => ({
             "@type": "Service",
             "name": s.title,
             "description": s.shortDescription,
-            "url": `https://www.smartit-srl.com/servizi/${s.slug}`
+            "url": `https://smartit-srl.com/servizi/${s.slug}`
         })),
         ...additionalServices.map(s => ({
             "@type": "Service",
             "name": s.title,
             "description": s.shortDescription,
-            "url": `https://www.smartit-srl.com/servizi/${s.slug}`
+            "url": `https://smartit-srl.com/servizi/${s.slug}`
         }))
     ]
 };

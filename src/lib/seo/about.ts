@@ -19,11 +19,11 @@ export const aboutMetadata: Metadata = {
     openGraph: {
         title: "Chi Siamo | Smart it - Building & Facility Management",
         description: "Scopri la storia, i valori e la missione di Smart it. Azienda leader nel facility management a Milano, Assago, Buccinasco e in tutta la Lombardia. Esperienza, innovazione e servizi su misura per aziende e condomini.",
-        url: "https://www.smartit-srl.com/chi-siamo",
+        url: "https://smartit-srl.com/chi-siamo",
         type: "website",
         images: [
             {
-                url: "https://www.smartit-srl.com/no-text-logo.png",
+                url: "https://smartit-srl.com/no-text-logo.png",
                 width: 800,
                 height: 600,
                 alt: "Smart it - Chi Siamo Milano"
@@ -35,10 +35,10 @@ export const aboutMetadata: Metadata = {
         card: "summary_large_image",
         title: "Chi Siamo | Smart it - Building & Facility Management",
         description: "Scopri la storia, i valori e la missione di Smart it. Azienda leader nel facility management a Milano, Assago, Buccinasco e in tutta la Lombardia. Esperienza, innovazione e servizi su misura per aziende e condomini.",
-        images: ["https://www.smartit-srl.com/no-text-logo.png"]
+        images: ["https://smartit-srl.com/no-text-logo.png"]
     },
     alternates: {
-        canonical: "https://www.smartit-srl.com/chi-siamo",
+        canonical: "https://smartit-srl.com/chi-siamo",
         languages: {
             "it-IT": "/chi-siamo",
         }
@@ -59,11 +59,11 @@ export const aboutStructuredData = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
     "name": "Chi Siamo | Smart it - Building & Facility Management",
-    "url": "https://www.smartit-srl.com/chi-siamo",
+    "url": "https://smartit-srl.com/chi-siamo",
     "description": "Scopri la storia, i valori e la missione di Smart it. Azienda leader nel facility management a Milano, Assago, Buccinasco e in tutta la Lombardia. Esperienza, innovazione e servizi su misura per aziende e condomini.",
     "publisher": {
         "@type": "Organization",
         "name": "Smart it",
-        "url": "https://www.smartit-srl.com"
+        "url": "https://smartit-srl.com"
     }
 };

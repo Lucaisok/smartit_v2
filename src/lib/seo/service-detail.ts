@@ -28,11 +28,11 @@ export async function generateServiceMetadata(slug: string): Promise<Metadata> {
             title: baseTitle,
             description: baseDescription,
             siteName: "Smart it",
-            url: `https://www.smartit-srl.com/servizi/${service.slug}`,
+            url: `https://smartit-srl.com/servizi/${service.slug}`,
             type: "website",
             images: [
                 {
-                    url: "https://www.smartit-srl.com/no-text-logo.png",
+                    url: "https://smartit-srl.com/no-text-logo.png",
                     width: 800,
                     height: 600,
                     alt: `${service.title} - Smart it`,
@@ -44,10 +44,10 @@ export async function generateServiceMetadata(slug: string): Promise<Metadata> {
             card: "summary_large_image",
             title: baseTitle,
             description: baseDescription,
-            images: ["https://www.smartit-srl.com/no-text-logo.png"],
+            images: ["https://smartit-srl.com/no-text-logo.png"],
         },
         alternates: {
-            canonical: `https://www.smartit-srl.com/servizi/${service.slug}`,
+            canonical: `https://smartit-srl.com/servizi/${service.slug}`,
             languages: {
                 "it-IT": `/servizi/${service.slug}`,
             },
@@ -78,7 +78,7 @@ export function getServiceStructuredData(slug: string) {
         "provider": {
             "@type": "Organization",
             "name": "Smart it",
-            "url": "https://www.smartit-srl.com"
+            "url": "https://smartit-srl.com"
         },
         "hasOfferCatalog": {
             "@type": "OfferCatalog",
@@ -100,7 +100,7 @@ export function getServiceStructuredData(slug: string) {
                 }
             ]
         },
-        "url": `https://www.smartit-srl.com/servizi/${service.slug}`,
-        "image": "https://www.smartit-srl.com/no-text-logo.png"
+        "url": `https://smartit-srl.com/servizi/${service.slug}`,
+        "image": "https://smartit-srl.com/no-text-logo.png"
     };
 }
