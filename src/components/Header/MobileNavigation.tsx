@@ -1,6 +1,5 @@
 import { motion, AnimatePresence } from "motion/react";
 import Link from "next/link";
-import { FaWhatsapp } from "react-icons/fa";
 import Image from "next/image";
 import styles from "./MobileNavigation.module.css";
 import { siteContent } from "@/src/content/global";

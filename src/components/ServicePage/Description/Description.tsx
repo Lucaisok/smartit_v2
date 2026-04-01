@@ -7,6 +7,19 @@ interface DescriptionProps {
 export const Description = ({ description }: DescriptionProps) => {
     // Split on every line, preserving empty lines
     const splitted = description.split(/\r?\n/);
+    const renderPart = (part: string) => {
+        if (!part.includes("Smart it")) {
+            return part;
+        }
+
+        const pieces = part.split("Smart it");
+        return pieces.map((piece, index) => (
+            <span key={index}>
+                {piece}
+                {index < pieces.length - 1 && <>Smart <span className={styles.highlight}>it</span></>}
+            </span>
+        ));
+    };
 
     return (
         <section className={styles.descriptionSection}>
@@ -18,7 +31,7 @@ export const Description = ({ description }: DescriptionProps) => {
                             className={idx === 0 ? `${styles.text} ${styles.lead}` : styles.text}
                             key={idx}
                         >
-                            {part}
+                            {renderPart(part)}
                         </p>
                 )}
             </div>

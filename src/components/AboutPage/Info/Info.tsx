@@ -21,9 +21,19 @@ export const Info = () => {
                             {content.titleStart} <span className={styles.infoTitleHighlight}>{content.titleHighlight}</span> {content.titleEnd}
                         </h2>
                         <div>
-                            {content.paragraphs.map((p: string, i: number) => (
-                                <p className={styles.infoText} style={{ marginBottom: "2rem" }} key={i}>{p}</p>
-                            ))}
+                            {content.paragraphs.map((p: string, i: number) => {
+                                if (p.includes("Smart it")) {
+                                    const parts = p.split("Smart it");
+                                    return (
+                                        <p className={styles.infoText} style={{ marginBottom: "2rem" }} key={i}>
+                                            {parts[0]}Smart <span className={styles.highlight}>it</span>{parts[1]}
+                                        </p>
+                                    );
+                                }
+                                return (
+                                    <p className={styles.infoText} style={{ marginBottom: "2rem" }} key={i}>{p}</p>
+                                );
+                            })}
                         </div>
                     </div>
                     {!isMobile && <div className={styles.infoImageWrapper}>

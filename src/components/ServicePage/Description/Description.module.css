@@ -19,6 +19,11 @@
     white-space: pre-line;
 }
 
+.highlight {
+    color: var(--color-brand);
+    font-weight: 600;
+}
+
 .lead {
     font-size: var(--font-size-xl);
     font-weight: 700;

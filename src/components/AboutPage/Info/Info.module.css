@@ -54,6 +54,11 @@
     color: var(--color-brand);
 }
 
+.highlight {
+    color: var(--color-brand);
+    font-weight: 600;
+}
+
 .infoText {
     font-size: var(--font-size-lg);
     color: var(--color-text-secondary);

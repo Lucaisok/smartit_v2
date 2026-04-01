@@ -50,7 +50,7 @@ export const Location = () => {
                 </div>
                 <div className={styles.ctaWrap}>
                     <a
-                        href={contacts.hrefPhoneNumber}
+                        href={contacts.mapsURL}
                         target="_blank"
                         rel="noopener noreferrer"
                         className={styles.ctaBtn}
