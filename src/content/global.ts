@@ -38,7 +38,7 @@ export const siteContent = {
             mainHighlight: "servizi di pulizia professionale, manutenzione e facility management",
             mainLocation: "a Milano, Assago, Buccinasco e in tutta la Lombardia.",
             description: "Ci prendiamo cura del vostro immobile in ogni suo aspetto, preservandone il valore nel tempo attraverso interventi mirati e personalizzati: dalla pulizia quotidiana e straordinaria di uffici, aziende e condomini, al lavaggio di facciate e vetrate, fino alla manutenzione di impianti elettrici e idraulici, spazi verdi e aree comuni.",
-            paragraph: "Offriamo anche servizi di accoglienza, portierato e sicurezza, garantendo un ambiente ordinato, funzionale e accogliente per clienti e dipendenti. Il nostro obiettivo è diventare il vostro punto di riferimento per tutte le esigenze di gestione e cura degli spazi aziendali, industriali e direzionali."
+            paragraph: "Offriamo anche servizi di accoglienza e portierato, garantendo un ambiente ordinato, funzionale e accogliente per clienti e dipendenti. Il nostro obiettivo è diventare il vostro punto di riferimento per tutte le esigenze di gestione e cura degli spazi aziendali, industriali e direzionali."
         },
         hero: {
             imageAlt: "Milano buildings",
@@ -94,7 +94,7 @@ export const siteContent = {
             phoneCta: "Chiama Ora",
             hoursTitle: "Orari di Apertura",
             hoursDays: "Lunedì - Venerdì",
-            hoursTime: "09:00 - 18:00",
+            hoursTime: "09:00 - 17:00",
             hoursNote: "Su appuntamento anche al di fuori degli orari standard",
         },
         contactsLabels: {
@@ -102,7 +102,7 @@ export const siteContent = {
             phoneTitle: "Telefono",
             phoneNote: "Chiamaci per fissare un appuntamento",
             hoursTitle: "Orari di Apertura",
-            hours: "Lunedì - Venerdì: 09:00 - 18:00",
+            hours: "Lunedì - Venerdì: 09:00 - 17:00",
             callNow: "Chiamaci Ora",
             position: "Il nostro ufficio è strategicamente situato nel cuore di Milanofiori. Qui potrai incontrarci e discutere direttamente delle tue esigenze.",
             sendMessage: "Messaggio",
@@ -265,7 +265,7 @@ export const siteContent = {
     services: {
         cleaning: {
             title: "Pulizie Ordinarie e Straordinarie",
-            intro: "Servizi di pulizia regolare e interventi approfonditi per sanificazione e pulizia straordinaria.",
+            intro: "Servizi di pulizia ordinaria e interventi approfonditi per sanificazione e pulizia straordinaria.",
             shortDescription: `I nostri servizi di pulizie ordinarie per aziende, uffici e strutture professionali garantiscono ambienti sempre puliti, igienizzati e accoglienti.`,
             description: `Operiamo con puntualità, discrezione e la massima attenzione alle vostre esigenze, organizzando i nostri interventi in modo da non interferire con le attività quotidiane della vostra azienda.
 
@@ -281,7 +281,7 @@ Utilizziamo solo prodotti certificati e attrezzature professionali di ultima gen
                 },
                 {
                     question: "Posso modificare il programma di pulizie?",
-                    answer: "Sì, il servizio è completamente flessibile e può essere adattato in qualsiasi momento."
+                    answer: "Sì, il servizio è completamente flessibile e può essere adattato alle tue nuove esigenze."
                 }
             ]
         },
@@ -296,8 +296,8 @@ Offriamo interventi di pulizia ordinaria e straordinaria, sanificazioni, trattam
 Operiamo principalmente a Milano, Assago, Buccinasco e nei comuni limitrofi, garantendo sopralluoghi gratuiti e preventivi personalizzati senza impegno. Il nostro obiettivo è instaurare un rapporto di fiducia duraturo con ogni cliente, offrendo soluzioni che migliorano il comfort, l’immagine e la sicurezza degli ambienti di lavoro. Contattaci per scoprire come possiamo aiutarti a mantenere i tuoi spazi sempre impeccabili e accoglienti.`,
             faqs: [
                 {
-                    question: "Potete pulire fuori dall'orario di ufficio?",
-                    answer: "Sì, offriamo servizi sia durante che fuori dall'orario lavorativo, secondo le vostre preferenze."
+                    question: "In che momento della giornata viene eseguito il servizio di pulizia?",
+                    answer: "Il servizio viene effettuato fuori dall'orario lavorativo, così da non interferire con le vostre attività."
                 },
                 {
                     question: "Fornite i prodotti per la pulizia?",
@@ -325,7 +325,7 @@ Ogni intervento è pianificato per assicurare la piena conformità alle normativ
                 },
                 {
                     question: "Gestite anche rifiuti speciali?",
-                    answer: "Sì, ci occupiamo dello smaltimento corretto secondo le normative vigenti."
+                    answer: "Sì, è un servizio riservato ai nostri clienti e svolto in collaborazione con partner selezionati."
                 }
             ]
         },
@@ -350,10 +350,10 @@ Grazie all’esperienza e alla cura dei dettagli, contribuiamo a mantenere ambie
             ]
         },
         maintenance: {
-            title: "Manutenzione Ordinaria e di Impianti",
+            title: "Manutenzione Ordinaria di Impianti",
             intro: "Servizi completi di manutenzione ordinaria e straordinaria di impianti elettrici, idraulici e meccanici.",
             shortDescription: "Servizi completi di manutenzione ordinaria e straordinaria per impianti elettrici, idraulici e meccanici, con interventi tempestivi e soluzioni su misura per garantire efficienza, sicurezza e continuità operativa in ogni ambiente.",
-            description: `Un piano di manutenzione ordinaria ben strutturato è essenziale per garantire la sicurezza, l’efficienza e la continuità operativa degli impianti aziendali.
+            description: `Un piano di manutenzione ordinaria ben strutturato è essenziale per garantire la sicurezza, l’efficienza e la continuità operativa degli impianti.
 
 Smart it offre un servizio completo di manutenzione impianti elettrici, meccanici, idraulici e antincendio, progettato per assicurare il corretto funzionamento delle vostre strutture nel tempo. Interveniamo in modo programmato per prevenire malfunzionamenti e ridurre i rischi di fermo impianto, ma siamo pronti ad agire con tempestività anche in caso di manutenzioni straordinarie, guasti improvvisi o adeguamenti tecnici. Operiamo in contesti direzionali, industriali e condominiali, garantendo interventi su misura, tracciabili e conformi alle normative vigenti.
 
@@ -365,7 +365,7 @@ Lavoriamo su tutto il territorio di Milano, Assago, Buccinasco e in tutta la Lom
                 },
                 {
                     question: "I tecnici sono qualificati?",
-                    answer: "Tutti i nostri tecnici sono certificati e con esperienza pluriennale."
+                    answer: "Tutti i nostri tecnici sono qualificati e con esperienza pluriennale."
                 },
                 {
                     question: "Fornite garanzia sugli interventi?",
@@ -376,7 +376,7 @@ Lavoriamo su tutto il territorio di Milano, Assago, Buccinasco e in tutta la Lom
         imbiancature: {
             title: "Imbiancature",
             intro: "Servizio di imbiancatura professionale per interni ed esterni.",
-            shortDescription: "Imbiancatura professionale per interni ed esterni, con finiture di alta qualità e attenzione a ogni dettaglio. Dona nuova luce e valore ai tuoi ambienti con un servizio rapido, pulito e su misura per le tue esigenze.",
+            shortDescription: "Imbiancatura professionale per interni ed esterni, con finiture di alta qualità e attenzione ai dettagli. Dona nuova luce e valore ai tuoi ambienti con un servizio rapido, pulito e su misura per le tue esigenze.",
             description: `Offriamo un servizio di imbiancatura professionale pensato per abitazioni, uffici e spazi commerciali di ogni dimensione. Il nostro obiettivo è valorizzare i tuoi ambienti, donando loro un aspetto fresco, ordinato e accogliente.
 
 Utilizziamo esclusivamente vernici di alta qualità e tecniche avanzate, selezionate per garantire una finitura liscia, uniforme e duratura nel tempo. Ogni intervento viene eseguito con la massima cura, rispettando le esigenze specifiche di ogni cliente e le caratteristiche degli spazi.
@@ -396,7 +396,7 @@ Il nostro team di esperti si occupa di tutte le fasi del lavoro: dalla protezion
         reception: {
             title: "Servizi di portierato e reception",
             intro: "Personale qualificato per accoglienza e gestione delle portinerie.",
-            shortDescription: "Personale affidabile e qualificato per accoglienza, vigilanza e gestione professionale di portinerie e reception. Garantiamo presenza, cortesia e attenzione a ogni esigenza di condomini e aziende.",
+            shortDescription: "Personale affidabile e qualificato per accoglienza e gestione professionale di portinerie e reception. Garantiamo presenza, cortesia e attenzione a ogni esigenza di condomini e aziende.",
             description: `Offriamo servizi di portierato e reception pensati per aziende, condomini e complessi residenziali che desiderano una gestione professionale e sicura degli accessi.
 
 Il nostro personale, selezionato e formato, garantisce accoglienza cortese, controllo degli ingressi, gestione della corrispondenza e supporto organizzativo per residenti, visitatori e dipendenti. Ogni servizio è personalizzato in base alle esigenze specifiche della struttura, assicurando presenza costante, discrezione e massima affidabilità.
@@ -430,7 +430,7 @@ Affidarsi a noi significa trasformare il luogo di lavoro in un ambiente che valo
             faqs: [
                 {
                     question: "Quanto tempo richiede un allestimento?",
-                    answer: "Dipende dalle dimensioni. Un ufficio medio richiede 2-4 settimane."
+                    answer: "Dipende dalle dimensioni. Un ufficio medio richiede circa 4 settimane."
                 },
                 {
                     question: "Posso scegliere i fornitori?",
@@ -517,7 +517,7 @@ Il nostro team si occupa di taglio erba, potature, pulizia, trattamenti stagiona
             faqs: [
                 {
                     question: "Con quale frequenza intervenite?",
-                    answer: "Dipende dal tipo di verde. Generalmente settimanale in primavera/estate, mensile in autunno/inverno."
+                    answer: "Dipende dal tipo di verde e dalle stagioni."
                 },
                 {
                     question: "Smaltite gli sfalci?",
