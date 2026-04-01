@@ -106,8 +106,8 @@ export const additionalServices: Service[] = [
         faqs: siteContent.services.moving.faqs
     },
     {
-        id: "piccoli-lavori-edili",
-        slug: "piccoli-lavori-edili",
+        id: "interventi-di-restyling",
+        slug: "interventi-di-restyling",
         title: siteContent.services.smallConstructions.title,
         intro: siteContent.services.smallConstructions.intro,
         shortDescription: siteContent.services.smallConstructions.shortDescription,

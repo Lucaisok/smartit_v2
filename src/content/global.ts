@@ -463,12 +463,12 @@ Affidarsi a noi significa scegliere un trasloco senza stress, con la certezza di
             ]
         },
         smallConstructions: {
-            title: "Piccoli lavori edili",
-            intro: "Interventi edilizi di piccola entità per manutenzione e ristrutturazione.",
-            shortDescription: "Piccoli lavori edili per manutenzione e ristrutturazione, eseguiti con precisione e rapidità. Soluzioni su misura per ogni esigenza di casa o azienda.",
-            description: `Offriamo piccoli lavori edili per manutenzione e ristrutturazione di abitazioni, uffici e spazi commerciali, garantendo interventi rapidi e soluzioni su misura.
+            title: "Interventi di restyling",
+            intro: "Interventi edilizi di restyling, manutenzione e ristrutturazione.",
+            shortDescription: "Interventi di restyling, manutenzione e ristrutturazione, eseguiti con precisione e rapidità. Soluzioni su misura per ogni esigenza di casa o azienda.",
+            description: `Offriamo interventi di restyling, manutenzione e ristrutturazione di abitazioni, uffici e spazi commerciali, garantendo interventi rapidi e soluzioni su misura.
 
-Il nostro team si occupa di riparazioni, modifiche, posa di rivestimenti, cartongesso, tinteggiature e altre lavorazioni leggere, sempre con attenzione ai dettagli e rispetto dei tempi concordati. Utilizziamo materiali di qualità e tecniche aggiornate per assicurare risultati duraturi e sicuri.
+Il nostro team si occupa di riparazioni, modifiche, posa di rivestimenti, cartongesso, tinteggiature e altre lavorazioni, sempre con attenzione ai dettagli e rispetto dei tempi concordati. Utilizziamo materiali di qualità e tecniche aggiornate per assicurare risultati duraturi e sicuri.
 
 Scegliere i nostri servizi significa affidarsi a professionisti versatili e disponibili, pronti a risolvere ogni esigenza con precisione, trasparenza e massima cura per gli ambienti.`,
             faqs: [
@@ -482,7 +482,7 @@ Scegliere i nostri servizi significa affidarsi a professionisti versatili e disp
                 },
                 {
                     question: "Smaltite i materiali di risulta?",
-                    answer: "Sì, ci occupiamo dello smaltimento secondo normativa."
+                    answer: "Sì, ci occupiamo dello smaltimento secondo normativa in collaborazione con partner selezionati."
                 }
             ]
         },
