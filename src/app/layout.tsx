@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="it">
       <head>
-        <link rel="icon" href="/SmartSoloLogo.jpg" type="image/jpeg" />
+        <link rel="icon" href="/smartSoloLogo.jpg" type="image/jpeg" />
         <link rel="canonical" href="https://smartit-srl.com/" />
         <link rel="alternate" href="/" hrefLang="it-IT" />
         <script type="application/ld+json">
