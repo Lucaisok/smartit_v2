@@ -144,7 +144,7 @@ export const siteContent = {
                 "Dalla pulizia quotidiana alla manutenzione specializzata, ci impegniamo a offrire un servizio completo che copra ogni aspetto della gestione dei vostri spazi, con la massima attenzione alla qualità, alla sostenibilità e alla sicurezza."
             ],
             image: {
-                src: "https://images.unsplash.com/photo-1745847768380-2caeadbb3b71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGhhbmRzaGFrZSUyMHBhcnRuZXJzaGlwfGVufDF8fHx8MTc3MzgwNjI3M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+                src: "/aboutPageHero/mission-partnership.jpg",
                 alt: "Partnership"
             },
             list: [

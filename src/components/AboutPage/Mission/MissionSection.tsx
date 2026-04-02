@@ -1,6 +1,7 @@
 import { CheckCircle2 } from "lucide-react";
 import { siteContent } from "../../../content/global";
 import styles from "./MissionSection.module.css";
+import Image from "next/image";
 
 export const MissionSection = () => {
     const content = siteContent.aboutPage.missionSection;
@@ -9,9 +10,12 @@ export const MissionSection = () => {
             <div className={styles.container}>
                 <div className={styles.grid}>
                     <div className={styles.imageWrapper}>
-                        <img
+                        <Image
                             src={content.image.src}
                             alt={content.image.alt}
+                            width={1200}
+                            height={800}
+                            sizes="(max-width: 1023px) 100vw, 50vw"
                             className={styles.image}
                         />
                     </div>

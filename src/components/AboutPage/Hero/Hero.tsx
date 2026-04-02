@@ -1,14 +1,19 @@
 import { siteContent } from "@/src/content/global";
 import styles from "./Hero.module.css";
+import Image from "next/image";
 
 export const Hero = () => {
     const content = siteContent.aboutPage.hero;
     return (
         <section className={styles.section}>
             <div className={styles.overlay}>
-                <img
+                <Image
                     src={content.image}
                     alt={content.imageAlt}
+                    fill
+                    priority
+                    quality={80}
+                    sizes="100vw"
                     className={styles.overlayImage}
                 />
             </div>

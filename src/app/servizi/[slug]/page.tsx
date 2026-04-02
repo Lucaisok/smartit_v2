@@ -29,9 +29,15 @@ const ServicePage = async ({ params }: ServicePageProps) => {
     const service = [...services, ...additionalServices].find((s) => s.slug === slug);
     if (!service) return notFound();
 
-    const relatedServices = services
-        .filter(s => s.id !== service.id)
-        .sort(() => Math.random() - 0.5)
+    const availableRelatedServices = services.filter((s) => s.id !== service.id);
+    const rotationIndex =
+        availableRelatedServices.length > 0
+            ? [...service.slug].reduce((acc, char) => acc + char.charCodeAt(0), 0) % availableRelatedServices.length
+            : 0;
+
+    const relatedServices = availableRelatedServices
+        .slice(rotationIndex)
+        .concat(availableRelatedServices.slice(0, rotationIndex))
         .slice(0, 3);
 
     const structuredData = getServiceStructuredData(service.slug);

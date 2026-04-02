@@ -1,10 +1,11 @@
-import { Eye, LensConcave, Phone } from "lucide-react";
+import { Eye } from "lucide-react";
 import { Benefits } from "./Benefits/Benefits";
 import { Contacts } from "./Contacts/Contacts";
-import { contacts, siteContent } from "../../../content/global";
+import { siteContent } from "../../../content/global";
 import styles from "./Box.module.css";
 import Link from "next/link";
 import { routes } from "@/src/lib/routes";
+import Image from "next/image";
 
 export const Box = () => {
     const content = siteContent.officeSection.contactsLabels;
@@ -28,9 +29,11 @@ export const Box = () => {
                     </Link>
                 </div>
                 <div className={styles.imageWrapper}>
-                    <img
+                    <Image
                         src="/office-section.jpg"
                         alt="Punto Smart it"
+                        fill
+                        sizes="(max-width: 767px) 100vw, 50vw"
                         className={styles.image}
                     />
                     <div className={styles.overlay}></div>

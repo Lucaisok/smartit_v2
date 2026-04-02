@@ -4,7 +4,6 @@ import { routes } from "@/src/lib/routes";
 import { Service } from "@/src/types";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import { Card } from "./Card";
 import styles from "./RelatedServices.module.css";
 import { AdditionalServiceCard } from "../../AdditionalServiceCard/AdditionalServiceCard";
 

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Badge } from "./Badge";
 import styles from "./Hero.module.css";
 import { siteContent } from "@/src/content/global";
+import Image from "next/image";
 
 interface HeroProps {
     title: string;
@@ -17,7 +18,7 @@ export const Hero = ({ title, image, Icon, shortDescription }: HeroProps) => {
     return (
         <section className={styles.heroSection}>
             <div className={styles.bgImage}>
-                <img src={image} alt={title} className={styles.bgImage} />
+                <Image src={image} alt={title} fill priority quality={80} sizes="100vw" className={styles.bgImage} />
             </div>
             <div className={styles.overlay} />
             <div className={styles.heroContent}>

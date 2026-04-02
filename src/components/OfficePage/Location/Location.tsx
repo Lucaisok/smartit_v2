@@ -33,7 +33,7 @@ export const Location = () => {
                         </div>
                         <h3 className={styles.cardTitle}>Con i Mezzi</h3>
                         <p className={styles.cardDesc}>
-                            Fermata Metro M2 "Assago Milanofiori Forum" a pochi minuti a piedi.
+                            Fermata Metro M2 &quot;Assago Milanofiori Forum&quot; a pochi minuti a piedi.
                             Diverse linee di autobus collegano la zona con Milano centro.
                         </p>
                     </div>

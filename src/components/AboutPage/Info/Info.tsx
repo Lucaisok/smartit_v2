@@ -3,6 +3,7 @@ import { Award } from "lucide-react";
 import styles from "./Info.module.css";
 import { siteContent } from "../../../content/global";
 import { useIsMobile } from "@/src/hooks/useIsMobile";
+import Image from "next/image";
 
 export const Info = () => {
     const content = siteContent.aboutPage.info;
@@ -37,9 +38,12 @@ export const Info = () => {
                         </div>
                     </div>
                     {!isMobile && <div className={styles.infoImageWrapper}>
-                        <img
+                        <Image
                             src={content.image.src}
                             alt={content.image.alt}
+                            width={1200}
+                            height={800}
+                            sizes="(max-width: 1023px) 100vw, 50vw"
                             className={styles.infoImage}
                         />
                         <div className={styles.infoExperience}>

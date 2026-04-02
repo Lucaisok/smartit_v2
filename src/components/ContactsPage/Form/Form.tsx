@@ -52,9 +52,9 @@ export const Form = () => {
                 setStatus('error');
                 setError(data?.error || 'Something went wrong.');
             }
-        } catch (err: any) {
+        } catch (err: unknown) {
             setStatus('error');
-            setError(err?.message || 'Something went wrong.');
+            setError(err instanceof Error ? err.message : 'Something went wrong.');
         }
     };
 
