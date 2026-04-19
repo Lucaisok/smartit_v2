@@ -3,6 +3,7 @@ import { Building2, CheckCircle2, Navigation, Phone } from "lucide-react";
 import styles from "./Hero.module.css";
 import { contacts, siteContent } from "@/src/content/global";
 import Image from "next/image";
+import officeHero from "@/public/office-hero.jpeg";
 
 export const Hero = () => {
     const content = siteContent.officePage;
@@ -10,11 +11,11 @@ export const Hero = () => {
         <section className={styles.heroSection}>
             <div className={styles.bgOverlay}></div>
             <Image
-                src="/office-hero.jpeg"
+                src={officeHero}
                 alt="Punto Smart it"
                 fill
                 priority
-                quality={80}
+                quality={70}
                 sizes="100vw"
                 className={styles.bgImage}
             />

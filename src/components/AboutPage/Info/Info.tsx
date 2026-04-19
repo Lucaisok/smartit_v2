@@ -4,6 +4,7 @@ import styles from "./Info.module.css";
 import { siteContent } from "../../../content/global";
 import { useIsMobile } from "@/src/hooks/useIsMobile";
 import Image from "next/image";
+import teamImage from "@/public/aboutPageHero/team.jpg";
 
 export const Info = () => {
     const content = siteContent.aboutPage.info;
@@ -39,10 +40,11 @@ export const Info = () => {
                     </div>
                     {!isMobile && <div className={styles.infoImageWrapper}>
                         <Image
-                            src={content.image.src}
+                            src={teamImage}
                             alt={content.image.alt}
                             width={1200}
                             height={800}
+                            quality={70}
                             sizes="(max-width: 1023px) 100vw, 50vw"
                             className={styles.infoImage}
                         />

@@ -1,6 +1,7 @@
 import styles from "./Hero.module.css";
 import { siteContent } from "@/src/content/global";
 import Image from "next/image";
+import servicesHero from "@/public/servicesPageHero/cover.jpg";
 
 export const Hero = () => {
     const hero = siteContent.servicesPage.hero;
@@ -8,11 +9,11 @@ export const Hero = () => {
         <section className={styles.section}>
             <div className={styles.overlay}>
                 <Image
-                    src={hero.image}
+                    src={servicesHero}
                     alt={hero.imageAlt}
                     fill
                     priority
-                    quality={80}
+                    quality={70}
                     sizes="100vw"
                     className={styles.overlayImage}
                 />

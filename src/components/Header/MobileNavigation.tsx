@@ -52,7 +52,7 @@ export const MobileNavigation = ({ mobileMenuOpen, toggleMenu }: MobileNavigatio
                                 className={styles.logoBox}
                             >
                                 <div className={styles.logoInner}>
-                                    <Image src="/smartit-logo.png" alt={text.logoAlt} width={667} height={164} className={styles.logoImg} priority />
+                                    <Image src="/smartit-logo.png" alt={text.logoAlt} width={667} height={164} className={styles.logoImg} />
                                 </div>
                             </motion.div>
 

@@ -5,6 +5,8 @@ import styles from "./Hero.module.css";
 import { siteContent } from "../../../content/global";
 import { routes } from "../../../lib/routes";
 import Image from "next/image";
+import heroDesktop from "@/public/hero-bg34.jpg";
+import heroMobile from "@/public/hero-bg1.jpg";
 
 export const Hero = () => {
     const hero = siteContent.home.hero;
@@ -13,20 +15,20 @@ export const Hero = () => {
         <section className={styles.heroSection}>
             <div className={styles.bgOverlay}></div>
             <Image
-                src="/hero-bg34.jpg"
+                src={heroDesktop}
                 alt={hero.imageAlt}
                 fill
                 priority
-                quality={80}
+                quality={70}
                 sizes="(max-width: 767px) 0px, 100vw"
                 className={styles.bgImageDesktop}
             />
             <Image
-                src="/hero-bg1.jpg"
+                src={heroMobile}
                 alt={hero.imageAlt}
                 fill
                 priority
-                quality={80}
+                quality={70}
                 sizes="(max-width: 767px) 100vw, 0px"
                 className={styles.bgImageMobile}
             />
