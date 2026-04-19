@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 
 export const contactsMetadata: Metadata = {
-    title: "Contatti | Smart it - Building & Facility Management",
+    title: "Contatti Smart it | Preventivi Pulizie e Facility a Milano, Assago e Buccinasco",
     description:
-        "Contatta Smart it per informazioni, preventivi o richieste sui nostri servizi di facility management a Milano. Rispondiamo rapidamente via telefono, email o WhatsApp.",
+        "Richiedi un preventivo rapido per pulizie e facility management a Milano, Assago e Buccinasco. Smart it risponde via telefono, email e WhatsApp.",
     alternates: {
         canonical: "https://smartit-srl.com/contatti",
     },
     openGraph: {
-        title: "Contatti | Smart it - Building & Facility Management",
+        title: "Contatti Smart it | Preventivi Pulizie e Facility a Milano, Assago e Buccinasco",
         description:
-            "Contatta Smart it per informazioni, preventivi o richieste sui nostri servizi di building & facility management a Milano. Rispondiamo rapidamente via telefono, email o WhatsApp.",
+            "Richiedi un preventivo rapido per pulizie e facility management a Milano, Assago e Buccinasco. Smart it risponde via telefono, email e WhatsApp.",
         url: "https://smartit-srl.com/contatti",
         siteName: "Smart it",
         locale: "it_IT",
@@ -39,10 +39,10 @@ export const contactsMetadata: Metadata = {
 export const contactsStructuredData = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "name": "Contatti | Smart it - Building & Facility Management Milano",
+    "name": "Contatti Smart it | Preventivi Pulizie e Facility a Milano, Assago e Buccinasco",
     "url": "https://smartit-srl.com/contatti",
     "description":
-        "Contatta Smart it per informazioni, preventivi o richieste sui nostri servizi di building & facility management a Milano. Rispondiamo rapidamente via telefono, email o WhatsApp.",
+        "Richiedi un preventivo rapido per pulizie e facility management a Milano, Assago e Buccinasco. Smart it risponde via telefono, email e WhatsApp.",
     "mainEntity": {
         "@type": "LocalBusiness",
         "name": "Smart it",

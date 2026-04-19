@@ -33,8 +33,6 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.webmanifest" />
-        <link rel="canonical" href="https://smartit-srl.com/" />
-        <link rel="alternate" href="/" hrefLang="it-IT" />
         <script type="application/ld+json">
           {JSON.stringify(siteStructuredData.organization)}
         </script>

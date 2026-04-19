@@ -5,7 +5,6 @@ import { WhyUs } from "../components/Home/WhyUs/WhyUs";
 import { MainServicesSection } from "../components/Home/MainServicesSection/MainServicesSection";
 import { AdditionalServicesSection } from "../components/Home/AdditionalServicesSection/AdditionalServicesSection";
 import { homeMetadata, homeStructuredData } from "../lib/seo/home";
-import Head from "next/head";
 import { OfficeSection } from "../components/OfficeSection/OfficeSection";
 
 export const metadata = homeMetadata;
@@ -13,11 +12,9 @@ export const metadata = homeMetadata;
 export default function Home() {
   return (
     <>
-      <Head>
-        <script type="application/ld+json">
-          {JSON.stringify(homeStructuredData)}
-        </script>
-      </Head>
+      <script type="application/ld+json" suppressHydrationWarning>
+        {JSON.stringify(homeStructuredData)}
+      </script>
       <main>
         <Hero />
         <About />

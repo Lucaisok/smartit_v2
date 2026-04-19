@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next';
 import { services, additionalServices } from '@/src/lib/services';
 
+const LAST_MODIFIED = new Date('2026-04-19');
+
 function getBaseUrl() {
     if (process.env.NODE_ENV === 'production') {
         return 'https://smartit-srl.com';
@@ -15,25 +17,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const staticPages: MetadataRoute.Sitemap = [
         {
             url: `${baseUrl}/`,
-            lastModified: new Date(),
+            lastModified: LAST_MODIFIED,
             changeFrequency: 'weekly',
             priority: 1.0,
         },
         {
             url: `${baseUrl}/servizi`,
-            lastModified: new Date(),
+            lastModified: LAST_MODIFIED,
             changeFrequency: 'weekly',
             priority: 0.9,
         },
         {
             url: `${baseUrl}/chi-siamo`,
-            lastModified: new Date(),
+            lastModified: LAST_MODIFIED,
             changeFrequency: 'monthly',
             priority: 0.8,
         },
         {
             url: `${baseUrl}/contatti`,
-            lastModified: new Date(),
+            lastModified: LAST_MODIFIED,
             changeFrequency: 'monthly',
             priority: 0.7,
         },
@@ -43,12 +45,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const servicePages: MetadataRoute.Sitemap = [
         ...services.map((service) => ({
             url: `${baseUrl}/servizi/${service.slug}`,
-            lastModified: new Date(),
+            lastModified: LAST_MODIFIED,
             priority: 0.7,
         })),
         ...additionalServices.map((service) => ({
             url: `${baseUrl}/servizi/${service.slug}`,
-            lastModified: new Date(),
+            lastModified: LAST_MODIFIED,
             priority: 0.7,
         })),
     ];

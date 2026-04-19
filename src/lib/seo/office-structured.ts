@@ -2,7 +2,7 @@ export const officeStructuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Smart it - Punto Smart it",
-    "image": "https://smartit-srl.com/public/no-text-logo.png",
+    "image": "https://smartit-srl.com/no-text-logo.png",
     "@id": "https://maps.app.goo.gl/gvpoyVtXfuMnt6rZ8",
     "url": "https://smartit-srl.com/punto-smartit",
     "telephone": "+39 02 828 605 83",
@@ -42,7 +42,6 @@ export const officeStructuredData = {
         "areaServed": "IT"
     },
     "sameAs": [
-        "https://maps.app.goo.gl/gvpoyVtXfuMnt6rZ8",
-        // add google business profile URL here
+        "https://maps.app.goo.gl/gvpoyVtXfuMnt6rZ8"
     ]
 };

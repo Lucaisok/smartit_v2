@@ -17,12 +17,12 @@ const serviceKeywords = [
 ];
 
 export const servicesMetadata: Metadata = {
-    title: "Smart it | Servizi di Building & Facility Management a Milano, Assago, Buccinasco e in tutta la Lombardia",
-    description: "Scopri tutti i servizi offerti da Smart it: pulizie uffici, pulizie industriali, condominiali e post cantiere, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde, portierato e altro ancora a Milano, Assago, Buccinasco e in tutta la Lombardia.",
+    title: "Servizi di Pulizie e Facility Management a Milano, Assago e Buccinasco | Smart it",
+    description: "Scopri i servizi Smart it a Milano, Assago e Buccinasco: pulizie uffici, industriali e condominiali, manutenzioni, imbiancature, traslochi e portierato. Preventivo e sopralluogo gratuiti.",
     keywords: serviceKeywords,
     openGraph: {
-        title: "Smart it | Servizi di Building & Facility Management a Milano, Assago, Buccinasco e in tutta la Lombardia",
-        description: "Tutti i servizi Smart it: pulizie uffici, pulizie industriali, condominiali e post cantiere, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde, portierato e altro ancora a Milano, Assago, Buccinasco e in tutta la Lombardia.",
+        title: "Servizi di Pulizie e Facility Management a Milano, Assago e Buccinasco | Smart it",
+        description: "Scopri i servizi Smart it a Milano, Assago e Buccinasco: pulizie uffici, industriali e condominiali, manutenzioni, imbiancature, traslochi e portierato. Preventivo e sopralluogo gratuiti.",
         url: "https://smartit-srl.com/servizi",
         type: "website",
         images: [
@@ -37,8 +37,8 @@ export const servicesMetadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Smart it | Servizi di Building & Facility Management a Milano, Assago, Buccinasco e in tutta la Lombardia",
-        description: "Tutti i servizi Smart it: pulizie uffici, pulizie industriali, condominiali e post cantiere, manutenzioni, imbiancature, traslochi, facchinaggio, magazzinaggio, manutenzione del verde, portierato e altro ancora a Milano, Assago, Buccinasco e in tutta la Lombardia.",
+        title: "Servizi di Pulizie e Facility Management a Milano, Assago e Buccinasco | Smart it",
+        description: "Scopri i servizi Smart it a Milano, Assago e Buccinasco: pulizie uffici, industriali e condominiali, manutenzioni, imbiancature, traslochi e portierato. Preventivo e sopralluogo gratuiti.",
         images: ["https://smartit-srl.com/no-text-logo.png"]
     },
     alternates: {

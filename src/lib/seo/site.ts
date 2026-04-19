@@ -50,7 +50,7 @@ export const siteStructuredData = {
         "@type": "Organization",
         "name": "Smart it",
         "url": "https://smartit-srl.com",
-        "logo": "https://smartit-srl.com/public/no-text-logo.png",
+        "logo": "https://smartit-srl.com/no-text-logo.png",
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+39 02 828 605 83",
@@ -63,7 +63,7 @@ export const siteStructuredData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Smart it",
-        "image": "https://smartit-srl.com/public/no-text-logo.png",
+        "image": "https://smartit-srl.com/no-text-logo.png",
         "@id": "https://smartit-srl.com",
         "url": "https://smartit-srl.com",
         "telephone": "+39 02 828 605 83",

@@ -5,11 +5,15 @@ export async function generateServiceMetadata(slug: string): Promise<Metadata> {
     const service = [...services, ...additionalServices].find((s) => s.slug === slug);
     if (!service) return {};
 
-    const locations = "Milano, Assago, Buccinasco e in tutta la Lombardia";
-    const baseTitle = `Smart it | ${service.title} a ${locations}`;
-    const baseDescription = `${service.shortDescription} Offriamo preventivo gratuito e sopralluogo gratuito a ${locations}. ${service.description}`;
+    const primaryLocations = "Milano, Assago e Buccinasco";
+    const extendedLocations = "Milano, Assago, Buccinasco e in tutta la Lombardia";
+    const baseTitle = `${service.title} a ${primaryLocations} | Smart it`;
+    const baseDescription = `${service.shortDescription} Preventivo e sopralluogo gratuiti per aziende e condomini a ${extendedLocations}.`;
     const keywords = [
         service.title,
+        `${service.title} Milano`,
+        `${service.title} Assago`,
+        `${service.title} Buccinasco`,
         "servizi facility management",
         "preventivo gratuito",
         "sopralluogo gratuito",
